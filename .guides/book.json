@@ -930,13 +930,13 @@
        "pageId": "d51f5af5-b10e-1fe8-c3aa-316ff6ebc5bb"
       },
       {
-       "title": "List Basics 1",
+       "title": "List Basics: Creation and Indexing",
        "id": "52145cf6-f1dc-c3a6-2d7a-c40f50840095",
        "type": "page",
        "pageId": "2b377a32-4ec3-e234-4a62-e45ba157244b"
       },
       {
-       "title": "List Basics 2",
+       "title": "List Basics: Length and Mutation",
        "id": "b3743b0c-7f34-8c3f-1489-61f504738792",
        "type": "page",
        "pageId": "144e0ea4-e407-3865-dd7b-4b93b0f5cbf4"
@@ -2302,118 +2302,6 @@
        "id": "f5eaa222-cabe-9df9-5044-6c99d2955c5f",
        "type": "page",
        "pageId": "cac2eaa7-8e40-beef-543e-da13202d9843"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Recursion",
-   "id": "5323fb01-0d94-d72a-5ee7-106548bedaa0",
-   "type": "chapter",
-   "children": [
-    {
-     "title": "Learning Objectives - Recursion",
-     "id": "1175680e-8596-e538-901f-afcba0cce6bc",
-     "type": "page",
-     "pageId": "e2fe915e-4a91-c104-fb88-bc80ca6c1131"
-    },
-    {
-     "title": "What is Recursion?",
-     "id": "45b28965-d871-3254-fa9b-8c6cb4114592",
-     "type": "page",
-     "pageId": "a00ac5da-8050-cdfb-f2bb-71f15667f726"
-    },
-    {
-     "title": "Fibonacci Sequence",
-     "id": "a9b4da60-6df5-38c8-52bf-3942e9d5ddb7",
-     "type": "page",
-     "pageId": "95a29dd8-d89b-35b3-4c52-246b4d0f0ea8"
-    },
-    {
-     "title": "Formative Assessment - Recursion",
-     "id": "72920b1f-531a-7691-399f-1a7453bbf73f",
-     "type": "section",
-     "children": [
-      {
-       "title": "Formative Assessment 2",
-       "id": "0773a37a-9394-53a6-d711-ebbbcb944a71",
-       "type": "page",
-       "pageId": "0e9bfd99-fa87-9bc2-6cad-05aab0c4d70e"
-      }
-     ]
-    },
-    {
-     "title": "Formative Assessment 1",
-     "id": "4dbca618-1ef8-2309-9491-2a5533f1a162",
-     "type": "page",
-     "pageId": "c432419e-8a4d-75b2-bffc-ddbb97c84be3"
-    },
-    {
-     "title": "Lab - Recursion",
-     "id": "8b6baa5a-1390-d654-00fc-036d25fc0cc3",
-     "type": "section",
-     "children": [
-      {
-       "title": "Lab 1",
-       "id": "3751f746-24f5-fba7-a014-5a5059a26919",
-       "type": "page",
-       "pageId": "f07c65dd-ba77-07c8-bbe9-b94be1ac72f9"
-      },
-      {
-       "title": "Lab 2",
-       "id": "2e516843-e6ce-cb9e-3e16-8ca37e3c8fde",
-       "type": "page",
-       "pageId": "6582d382-190c-83a5-2f5f-6cdc072bc9e2"
-      },
-      {
-       "title": "Lab 3",
-       "id": "5bbe943b-3ec1-ba21-9b91-43c8f9dd1394",
-       "type": "page",
-       "pageId": "869b4c1a-9750-b341-33ef-c6d9012f02a1"
-      },
-      {
-       "title": "Lab Challenge",
-       "id": "2f52a868-0bf7-6684-45d3-e84e9427c022",
-       "type": "page",
-       "pageId": "0d932aa1-a070-6d51-0f48-7da657d71ea6"
-      }
-     ]
-    },
-    {
-     "title": "Coding Exercises",
-     "id": "5f16a2da-c017-8b5d-36bb-5f9aa68956a0",
-     "type": "section",
-     "children": [
-      {
-       "title": "Exercise 1",
-       "id": "2e3e91d8-0810-42ec-d4de-47f0615c6e1f",
-       "type": "page",
-       "pageId": "668d3af6-040b-b38b-8435-64ad84659c3d"
-      },
-      {
-       "title": "Exercise 2",
-       "id": "e2cfc32b-f14e-e4b8-ad55-7661e2e5834d",
-       "type": "page",
-       "pageId": "ba5cf20c-516d-88b6-c99d-da2319bbdff5"
-      },
-      {
-       "title": "Exercise 3",
-       "id": "4bcbd5b3-0817-1044-c2a5-f318f95e4f37",
-       "type": "page",
-       "pageId": "f80f9114-7cd0-f11a-65c9-4c60820beedc"
-      },
-      {
-       "title": "Exercise 4",
-       "id": "0d7a8a81-8579-8c9e-a7be-7582f047a8cc",
-       "type": "page",
-       "pageId": "b344fe87-d4f2-8a35-9d8e-7ed130bba372"
-      },
-      {
-       "title": "Exercise 5",
-       "id": "e99571f2-69a3-5adc-a2bd-6e4d5444121d",
-       "type": "page",
-       "pageId": "3210ffaa-67a6-7333-ceb1-a1e226306929"
       }
      ]
     }

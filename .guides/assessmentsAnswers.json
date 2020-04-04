@@ -1,1 +1,35 @@
-[]
+[
+ {
+  "taskId": "multiple-choice-1940684776",
+  "points": 0,
+  "state": {
+   "active": "d63202cf-da3c-ff1b-c466-4ca9b8e25c14"
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-3821345628",
+  "points": 1,
+  "state": {
+   "active": [
+    "b4e84ff2-f5a1-9c9a-7160-5e3bdcc804d7",
+    "5b7ed779-a3a1-1ea9-245a-7eeb0e5c1bf0"
+   ]
+  },
+  "results": [
+   {
+    "guidance": "The correct way to declare a non-empty list in Python is as follows:\n```python\nthe_list = [2, 4, 'more elements']\n```\nA literal list declaration consists of elements separated by commas (`,`) and is surrounded by square brackets (`[]`). The second and third options declare a _tuple_, which is different from a list. The fourth option declares a _set_, which is also different from a list.",
+    "current": [
+     "b4e84ff2-f5a1-9c9a-7160-5e3bdcc804d7",
+     "5b7ed779-a3a1-1ea9-245a-7eeb0e5c1bf0"
+    ],
+    "right": [
+     "b4e84ff2-f5a1-9c9a-7160-5e3bdcc804d7",
+     "5b7ed779-a3a1-1ea9-245a-7eeb0e5c1bf0"
+    ],
+    "timestamp": 1586024402818,
+    "state": "pass"
+   }
+  ]
+ }
+]
