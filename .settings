@@ -3,7 +3,7 @@ tab_size = 2
 ; enter your editor preferences here...
 visible_tabs = true
 indent_with_tabs = false
-theme = default
+theme = monokai
 
 [view-javascript-code]
 ; enter your view-javascript-code preferences here...
@@ -24,6 +24,7 @@ enable_lsp_support = true
 ; enter your terminal preferences here...
 
 [preview]
+index_file = .guides/content/Data-encapsulation-bf23.md
 ; enter your preview preferences here...
 
 [search]

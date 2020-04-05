@@ -1,7 +1,8 @@
-* ### Learn what functions are and why programmers use them
-* ### Learn to structure your own functions
-* ### Learn how to call functions to incorporate them into your code
-* ### Learn some syntax tricks with functions
+* ### Demonstrate how to define a function
+* ### Differentiate between the function header and the function body
+* ### Identify the proper order of declaring and calling functions
+* ### Explain the importance of whitespace in functions
+* ### Identify the purpose of a docstring
 
 |||guidance
 ## Assumptions
