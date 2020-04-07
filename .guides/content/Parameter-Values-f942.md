@@ -2,33 +2,23 @@
 
 ## Named Parameters
 
-Typically, parameter values are assigned based on their position in the function call. However, Python allows you to pass a value to a parameter based its name.
+Typically, parameter values are assigned based on their position in the function call. However, Python allows you to specify which parameter is which if you want them in a different order. This technique also helps readability if you are dealing with complex functions that take in lots of hard-to-remember parameters.
 
 ```python
 def subtract(num1, num2):
     """Subtract the second parameter from the first"""
     print(num1 - num2)
     
-subtract(5, 2)
-subtract(2, 5)
-subtract(num2=2, num1=5)
+subtract(5, 2)#returns 5 - 2 = 3
+subtract(2, 5)#returns 2 - 5 = -3
+subtract(num2=2, num1=5)# can you predict what this returns?
 ```
 
 {try it}(python3 code/functions/parameter-values.py 1)
 
-|||challenge
-## What happens if you:
-* Change the function call to `subtract(num3=2, num1=5)`?
-* Change the function call to `subtract(num1=2, 5)`?
-* Change the function call to `subtract(num1=2, num1=5)`?
-
-|||
-
-{try it}(python3 code/functions/parameter-values.py 2)
-
 ## Parameter Values
 
-If parameters can be thought of as variables, then they can have the same values as variables: ints, floats, strings, boolean, lists, etc.
+If parameters can be thought of as variables, then you can pass in any type of variable as a parameter: ints, floats, strings, boolean, lists, etc.
 
 ```python
 def parameter_types(param1, param2, param3, param4):
@@ -42,12 +32,11 @@ def parameter_types(param1, param2, param3, param4):
 parameter_types(1, 5.9, "Beatles", False)
 ```
 
-{try it}(python3 code/functions/parameter-values.py 3)
+{try it}(python3 code/functions/parameter-values.py 2)
 
 |||challenge
-## What happens if you:
-* Change the function call to `parameter_types([1,2,3], -6, len, True)`?
-* Change the function call to `parameter_types(range(10), "", parameter_types, 45)`?
+## Your Turn!
+- Write a function that passes in a list as a parameter and prints out each item. Test the outputs you get when you input lists with different types of elements.
 
 |||
 

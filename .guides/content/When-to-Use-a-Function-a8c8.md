@@ -14,14 +14,14 @@ t = turtle.Turtle()
 def roof():
     """Draw a triangle to represent a roof"""
     for i in range(3):
-        t.lt(120)
-        t.forward(100)
+        t.lt(120)# left turn
+        t.forward(100) #draw a side
 
 def house():
     """Draw a rectangle to represent a house"""
     for i in range(4):
-        t.rt(90)
-        t.forward(100)
+        t.rt(90)# right turn
+        t.forward(100)# draw a side
         
 roof()
 house()

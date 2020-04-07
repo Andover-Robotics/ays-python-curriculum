@@ -1,10 +1,9 @@
-* ### Demonstrate how to define a function with parameters
-* ### Identify which value is assigned to each parameter
-* ### Assign a parameter a value based on its name
+* ### Learn what parameters are and why they are useful
+* ### Be able to figure out which value maps to which parameter in a given function call
 * ### Identify which data types can be used as parameters
-* ### Check parameter types and provide feedback when there is an error
+* ### Debug errors stemming from the wrong type of parameter
 * ### Explain how optional parameters work
-* ### Demonstrate how to declare a function with an undetermined amount of parameters
+* ### Demonstrate how to define a function with an undetermined amount of parameters
 
 |||guidance
 ## Assumptions

@@ -1,8 +1,6 @@
-* ### Demonstrate how to define a function
-* ### Differentiate between the function header and the function body
-* ### Identify the proper order of declaring and calling functions
-* ### Explain the importance of whitespace in functions
-* ### Identify the purpose of a docstring
+* ### Learn what functions are and why programmers use them
+* ### Learn the syntax for how to set up your own function
+* ### Know the difference between defining a function and calling it
 
 |||guidance
 ## Assumptions
