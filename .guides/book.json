@@ -513,12 +513,6 @@
        "id": "ce5e23e6-dba8-9fde-9c5b-a50b7293e3c1",
        "type": "page",
        "pageId": "c1688b3d-bb7f-2f17-e207-d6a5e8a377b7"
-      },
-      {
-       "title": "Formative Assessment 2",
-       "id": "06143a83-789f-70bb-db94-ae23a9cdf829",
-       "type": "page",
-       "pageId": "bc310f1f-afe9-c813-d3ad-97a97a3403ca"
       }
      ]
     },
@@ -944,21 +938,27 @@
      ]
     },
     {
-     "title": "Formative Assessment - List Basics",
-     "id": "3e5b9f7a-11f4-36aa-60ee-ec525121281d",
+     "title": "List Iteration",
+     "id": "dfe8ee58-e752-9abe-8551-563b25ac7057",
      "type": "section",
      "children": [
       {
-       "title": "Formative Assessment 1",
-       "id": "2e9439f6-6d16-ac23-9e61-310a955bae53",
+       "title": "Learning Objectives - List Iteration",
+       "id": "25a0d77c-cc6c-633f-d389-9d87286b257d",
        "type": "page",
-       "pageId": "966fa3cd-0185-976e-cafa-0c3a40093527"
+       "pageId": "602cf983-9a0f-10d4-aff5-56dcbc2e3eb9"
       },
       {
-       "title": "Formative Assessment 2",
-       "id": "02157906-57a6-8bd0-e84a-3abdc4b296ca",
+       "title": "List Iteration - For Loops",
+       "id": "2e143413-6c12-aaa1-533d-da5dfff85666",
        "type": "page",
-       "pageId": "959be527-995a-d1a6-de84-2383cc616097"
+       "pageId": "3c4ab9cc-f89a-b41b-1900-203273cc7d15"
+      },
+      {
+       "title": "List Iteration - While Loop",
+       "id": "4e91257d-8d9a-785d-abf1-419ae40df31b",
+       "type": "page",
+       "pageId": "bfa23495-19e6-3b62-8c51-f8b73a3015ba"
       }
      ]
     },
@@ -1151,31 +1151,6 @@
        "id": "f0cd401c-2274-c1b2-a10f-12be49a48564",
        "type": "page",
        "pageId": "74be7fc8-9946-21fb-bcc3-38a39ad51206"
-      }
-     ]
-    },
-    {
-     "title": "List Iteration",
-     "id": "dfe8ee58-e752-9abe-8551-563b25ac7057",
-     "type": "section",
-     "children": [
-      {
-       "title": "Learning Objectives - List Iteration",
-       "id": "25a0d77c-cc6c-633f-d389-9d87286b257d",
-       "type": "page",
-       "pageId": "602cf983-9a0f-10d4-aff5-56dcbc2e3eb9"
-      },
-      {
-       "title": "List Iteration - For Loop",
-       "id": "2e143413-6c12-aaa1-533d-da5dfff85666",
-       "type": "page",
-       "pageId": "3c4ab9cc-f89a-b41b-1900-203273cc7d15"
-      },
-      {
-       "title": "List Iteration - While Loop",
-       "id": "4e91257d-8d9a-785d-abf1-419ae40df31b",
-       "type": "page",
-       "pageId": "bfa23495-19e6-3b62-8c51-f8b73a3015ba"
       }
      ]
     },

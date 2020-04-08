@@ -49,9 +49,12 @@ if grade < 70:
 * Change `grade > 70` to `grade >= 70`?
 
 |||
-
 [Code Visualizer](open_tutor code/selection/if-statement.py)
 {try it}(python3 code/selection/if-statement.py 4)
-
+-------------------
+## Your Turn:
+You just built a really scary rollercoaster, so scary that riders must be at least 48 inches tall in order to ride it. Write an if statement to check if riders are tall enough to ride your roller coaster.
+{run code}(python3 code/selection/if-statement.py 5)
+---------------
 {Check It!|assessment}(parsons-puzzle-1352008565)
 

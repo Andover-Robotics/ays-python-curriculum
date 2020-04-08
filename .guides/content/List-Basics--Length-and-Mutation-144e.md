@@ -86,27 +86,16 @@ numbers.insert(3, 4)
 
 |||
 
-```python
-my_list = [1, 2, 3]
-print(my_list)
+### Combine lists
 
-my_list[0] = 4
-my_list[1] = 5
-my_list[2] = 6
-print(my_list)
-```
+In Python, you can use the addition operator (`+`) between two lists in order to combine them. For example, `[1, 9, 3] + [8, 2, 4]` is equal to `[1, 9, 3, 8, 2, 4]`. 
 
-{try it}(python3 code/lists/list-basics-2.py 3)
+## Check your understanding
 
-|||challenge
-## What happens if you:
-* Change an assignment to be `my_list[0] = "hello"`?
-* Change an assignment to be `my_list[0] = 5 % 2 > 0`?
-* Change an assignment to be `my_list[0] = my_list[2]`?
+By now, you should know how to get the length of a list, add elements, remove elements, change elements, and combine lists.
 
-|||
+{Check It!|assessment}(fill-in-the-blanks-1796257491)
 
-{try it}(python3 code/lists/list-basics-2.py 4)
+{Check It!|assessment}(fill-in-the-blanks-2837205768)
 
-{Check It!|assessment}(fill-in-the-blanks-2442920593)
-
+{Check It!|assessment}(fill-in-the-blanks-3547173064)

@@ -12,6 +12,7 @@ If statements in Python must contain the following items:
 * a colon
 * 4 spaces of indentation for all lines of code that will run if the boolean expression is true.
 
+Try out the code below. Remember that you can use the code visualizer to see how the code works step by step.
 ```python
 if 5 > 4:
     print("1st command if true")

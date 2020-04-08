@@ -31,5 +31,33 @@
     "state": "pass"
    }
   ]
+ },
+ {
+  "taskId": "fill-in-the-blanks-3547173064",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-4088401606",
+  "points": 0,
+  "state": {
+   "active": [
+    "color",
+    "colors",
+    "color"
+   ]
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-1388084939",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
  }
 ]

@@ -6,25 +6,9 @@ The if statement asks a single question, "Is this true?". The if else statement 
 
 ![elif Statement](.guides/images/if-vs-else-vs-elif.png)
 
-```python
-grade = 82
-
-if grade < 70:
-    print("You got an F.")
-elif grade < 80:
-    print("You got a C.")
-elif grade < 90:
-    print("You got a B.")
-else:
-    print("You got an A.")
-```
-
-[Code Visualizer](open_tutor code/selection/elif-statement.py)
-{try it}(python3 code/selection/elif-statement.py 1)
-
 |||challenge
 ## Can you...
-Add the letter grade D which is any grade from 60 to 69?
+Copy the code from above, but add the letter grade D which is any grade from 60 to 69?
 
 **Testing Your Code**
 Change `grade` to `65`. You should see `You got a D.` as the output of your program.
