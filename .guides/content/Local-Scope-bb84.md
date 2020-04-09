@@ -18,18 +18,13 @@ function_2()
 
 {try it}(python3 code/functions/local-scope.py 1)
 
-Python says the problem is that `my_var` is not defined even though the variable is defined on line 3. Variables declared inside a function have local scope. That means `my_var` only "exists" in `function_1`, it cannot be referenced outside of its function. In the image below, light blue box represents the scope of `my_var`. Since `function_2` is outside the scope of `my_var` an error occurs.
+Python says the problem is that `my_var` is not defined even though the variable is defined on line 3. Variables first declared inside a function have **local scope**. That means `my_var` only "exists" in `function_1`. If you say "my_var" outside of its function, the computer has no idea what you're talking about. In the image below, the light blue box represents the scope of `my_var`. Since `function_2` is outside the scope of `my_var` an error occurs.
 
 ![Local Scope](.guides/images/local-scope.png)
 
 |||challenge
-## What happens if you:
-* Change `function_2` to look like this:
-```python
-def function_2():
-    my_var2 = "Hello"
-    print(my_var2)
-```
+## Your Turn!
+- Try to get Function 2 working properly!
 
 |||
 
@@ -37,7 +32,7 @@ def function_2():
 
 ## More Local Scope
 
-Each function has its own local scope. That means you can declare two variables with the same name as long as they are in separate functions. The red `my_var` exists only in the light red box, and the blue `my_var` exists only in the light blue box. The boundaries of local scope keep Python from overwriting the value of the first variable with the contents of the second.
+Each function has its own local scope. That means you can declare two variables with the same name as long as they are in separate functions. The red `my_var` exists only in the light red box, and the blue `my_var` exists only in the light blue box. The boundaries of local scope keep Python from changing the value of the first variable to that of the second.
 
 ![Local Scope](.guides/images/local-scope2.png)
 
@@ -57,13 +52,9 @@ function_2()
 {try it}(python3 code/functions/local-scope.py 3)
 
 |||challenge
-## What happens if you:
-* Declare and call `function_3`:
-```python
-def function_3():
-    my_var = "Hola"
-    print(my_var)
-```
+## Your Turn!
+- Write a third function that also uses my_var locally. 
+
 
 |||
 

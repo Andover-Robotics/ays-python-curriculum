@@ -2543,7 +2543,7 @@
     {
      "_id": "25e0febb-abe7-7958-8b77-77e694128374",
      "correct": true,
-     "answer": "Sends your output to the screen"
+     "answer": "Sends your output to the console"
     },
     {
      "_id": "5010b36f-4055-fdc4-8681-3d0f640b737a",
@@ -2557,12 +2557,19 @@
    "points": 1,
    "incorrectPoints": 0,
    "metadata": {
-    "tags": [],
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
     "files": [
      "code/playground-printing2.py"
     ],
     "opened": []
-   }
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
@@ -14362,6 +14369,529 @@
    }
   },
   "linkedId": "d596945f-8587-4675-9b73-72434199dcf8",
+  "libraryId": "7f9c49e5-5dbb-48ea-8006-6944447abbe6",
+  "version": 1
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1033494422",
+  "source": {
+   "name": "Hello World",
+   "showName": true,
+   "instructions": "Output `Hello World!` to the console. \n\nMake your changes to the code in the file editor on the left. Then, press the `Check It!` button below to run the code and see the output.",
+   "command": "python3 code/fundamentals/hello_world.py",
+   "preExecuteCommand": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": false,
+    "ignoreNewline": false,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": false,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "Hello World!",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/hello_world.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/hello_world.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3046085728",
+  "source": {
+   "name": "Variables DIY 1",
+   "showName": false,
+   "instructions": "Can you rewrite this code using variables? Please make sure the output is the same.",
+   "command": "python3 code/fundamentals/variables_diy.py",
+   "preExecuteCommand": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": false,
+    "ignoreNewline": false,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "HELLO world! I am learning python!",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/variables_diy.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/variables_diy.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3221903853",
+  "source": {
+   "name": "Variables Review Part 2",
+   "showName": false,
+   "instructions": "Given the following code:\n\n```python\nvar_one = 10\nvar_two = '10'\n```\n\nDo `var_one` and `var_two` have the same value?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "91e8f712-e9e2-999a-54e7-f57493084da0",
+     "correct": false,
+     "answer": "Yes"
+    },
+    {
+     "_id": "cd64f985-e957-2c40-b8e6-fed9ce2fbc1f",
+     "correct": true,
+     "answer": "No"
+    }
+   ],
+   "guidance": "One of these is a string, and the other is an int. These are two different data types.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-779071524",
+  "source": {
+   "name": "Variables Review Part 4",
+   "showName": false,
+   "instructions": "What is the value of `var` at the end of this code segment?\n\n```python\nvar = 1\nvar += 2\nvar *= 4\nvar -= 2\nvar /= 2\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "448e01ee-929a-99ce-ff9c-9c3a0830e65d",
+     "correct": false,
+     "answer": "2"
+    },
+    {
+     "_id": "591646f5-6ef2-6049-f8a8-fe11eb125390",
+     "correct": false,
+     "answer": "3"
+    },
+    {
+     "_id": "3f5ab08f-fada-50de-9962-16b8e9367882",
+     "correct": false,
+     "answer": "4"
+    },
+    {
+     "_id": "6fb8586e-8d89-07de-a49a-1f8a54cee93e",
+     "correct": true,
+     "answer": "5"
+    }
+   ],
+   "guidance": "At the end of line 1, `var` is `1`.\nAt the end of line 2, `var` is `3`.\nAt the end of line 3, `var` is `12`.\nAt the end of line 4, `var` is `10`.\nAt the end of line 5, `var` is `5`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1107114688",
+  "source": {
+   "name": "Strings Review",
+   "showName": false,
+   "instructions": "Which of the following code snippets will give `THIS IS A MESSAGE`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "90272ebb-b217-ea70-9172-91ed940aa967",
+     "correct": false,
+     "answer": "`len('this is a message')`"
+    },
+    {
+     "_id": "795c2872-cda9-ce22-53c5-6c0809287b8c",
+     "correct": true,
+     "answer": "`'this is a message'.upper()`"
+    },
+    {
+     "_id": "05f019ac-f0ac-dc3e-f6fa-af12980ee653",
+     "correct": false,
+     "answer": "`'this is a message'.lower()`"
+    },
+    {
+     "_id": "4116e7db-dab7-bd8e-1c10-e2a64c7bf247",
+     "correct": false,
+     "answer": "`'this is a message'.capitalize()`"
+    }
+   ],
+   "guidance": "`len()` gives the length of the string, which would be a number.\n`.upper()` capitalizes every letter in the string, yielding the solution.\n`.lower()` makes every letter in the string lowercase, which is incorrect.\n`.capitalize()` capitalizes only the first letter of the string, which is incorrect.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4017542138",
+  "source": {
+   "name": "Variables - Review Part 5",
+   "showName": false,
+   "instructions": "Which of the following is a valid value for a **boolean** in Python?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "c306b39f-0a8b-8440-9317-733c8b172137",
+     "correct": false,
+     "answer": "true"
+    },
+    {
+     "_id": "9e0b8412-6152-2d9a-262a-24bb1f2ad6ac",
+     "correct": false,
+     "answer": "false"
+    },
+    {
+     "_id": "ed96d21a-7ed0-b750-5211-d457f2206b23",
+     "correct": true,
+     "answer": "True"
+    },
+    {
+     "_id": "1fb7bdde-a1c1-0014-3951-fe94f6e6ad22",
+     "correct": false,
+     "answer": "FALSE"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2355929832",
+  "source": {
+   "name": "Python - Repetition 2",
+   "showName": true,
+   "instructions": "Which of the following options call `report()` exactly 28 times?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "931bd1aa-dc26-172c-7825-5bf8852e320c",
+     "correct": true,
+     "answer": "```python\ni = 28\nwhile i > 0:\n  report()\n  i -= 1\n```"
+    },
+    {
+     "_id": "1ab88af0-6ef6-d45d-7459-5bd85c748347",
+     "correct": false,
+     "answer": "```python\nfor i in range(1, 28):\n  report()\n```"
+    },
+    {
+     "_id": "0dd2ee3f-8256-28b5-6172-9ef64ed9ad5e",
+     "correct": true,
+     "answer": "```python\nfor i in range(28):\n  report()\n```"
+    },
+    {
+     "_id": "abe56d12-422b-7924-bc4d-172b20a5168a",
+     "correct": false,
+     "answer": "```python\ni = 0\nwhile i <= 28:\n  report()\n  i += 1\n```"
+    },
+    {
+     "_id": "187d262b-ac6c-bceb-9ca6-893e099e322b",
+     "correct": false,
+     "answer": "```python\ni = 1\nwhile i < 28:\n  report()\n  i += 1\n```"
+    },
+    {
+     "_id": "89834f45-d97a-83f1-dbb0-f73ff5153fab",
+     "correct": true,
+     "answer": "```python\ni = 1\nwhile i <= 28:\n  report()\n  i += 1\n```"
+    }
+   ],
+   "guidance": "- `range(1, 28)` returns an iterable that does not include 28, meaning that it only causes the loop's body to be executed 27 times.\n- To execute something exactly `n` times with a `while` loop, either:\n  - Initialize `i` to 0 and let the `while` loop's predicate be `i < 28`;\n  - Initialize `i` to 1 and let the `while` loop's predicate be `i <= 28`;\nThe two incorrect combinations would cause the loop's body to be executed either `n-1` times or `n+1` times.",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     },
+     {
+      "name": "Content",
+      "value": "For loops, While loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT identify whether a loop written to repeat some action a certain number of times is correct"
+  },
+  "linkedId": "2ade369d-8a27-44a6-bd84-dbc547643f93",
+  "libraryId": "7f9c49e5-5dbb-48ea-8006-6944447abbe6",
+  "version": 1
+ },
+ {
+  "type": "test",
+  "taskId": "test-1456508341",
+  "source": {
+   "name": "Python - Stand in Order",
+   "showName": true,
+   "instructions": "Write a function named `insert_sorted` that accepts a list of integers sorted in increasing order and another integer to insert into that list. The function should find the correct spot in the list for the new integer and then use the `list.insert` method in order to insert it.\n\nExample usage:\n```python\n>>> array = [1, 4, 5, 9, 13, 15]\n>>> insert_sorted(array, 6)\n>>> array\n[1, 4, 5, 6, 9, 13, 15]\n```\n\n**You may not use `list.sort`.**",
+   "command": "python3 .guides/secure/lists/insertion-q3-test.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 5,
+   "guidance": "The following is a valid solution:\n```def insert_sorted(array, elem, startindex=0):\n  if startindex >= len(array) or array[startindex] > elem:\n    array.insert(startindex, elem)\n  else:\n    insert_sorted(array, elem, startindex=startindex+1)\n```\nThis solution traverses through the given list from the beginning, stopping when the current element becomes greater than the new item or when the end of the list has been reached. Then, the new item is inserted before the first element that is greater than its value.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     },
+     {
+      "name": "Content",
+      "value": "Modifying Lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     }
+    ],
+    "files": [
+     "lists/Q3_Insertion.py",
+     ".guides/secure/lists/insertion-q3-test.py",
+     ".guides/secure/try_dep.py"
+    ],
+    "layout": "2-panels",
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "lists/Q3_Insertion.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT write a function that inserts an element in its correct sorted position in a list"
+  },
+  "libraryId": "7f9c49e5-5dbb-48ea-8006-6944447abbe6",
+  "version": 1
+ },
+ {
+  "type": "test",
+  "taskId": "test-2241134939",
+  "source": {
+   "name": "Python - Greatest Common Divisor",
+   "showName": true,
+   "instructions": "The **Euclidean Algorithm** is an efficient way to compute the GCD (greatest common divisor) of any two non-negative integers. Given inputs `a` and `b`, the following is how the algorithm operates:\n\n1. If `a` equals 0, then `b` is the final result\n2. If `b` equals 0, then `a` is the final result\n3. Since `GCD(a, b) = GCD(b, a % b)`, change `a` and `b` such that they match the arguments on the right-hand side of this equation\n4. Go to step 1\n\nYour task is to implement this algorithm using a `while` loop, not recursion. You should compute `GCD(a,b)` and print it to standard output. Assume that nonnegative integers have already been assigned to `a` and `b`.",
+   "command": "python3 .guides/secure/gcd-test.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 10,
+   "guidance": "A valid solution to this problem would be the following:\n\n```python\nwhile True:\n  if a == 0:\n    print(b)\n    break\n  if b == 0:\n    print(a)\n    break\n  a, b = b, a % b\n```\n\nThis solution follows each step of the Euclidean Algorithm. The last line first computes the tuple `(b, a % b)` and then assigns it to `(a, b)`.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     },
+     {
+      "name": "Content",
+      "value": "While loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     }
+    ],
+    "files": [
+     "Q8_GCD.py",
+     ".guides/secure/lib/syntax-check.py",
+     ".guides/secure/gcd-test.py"
+    ],
+    "layout": "2-panels",
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "Q8_GCD.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT utilize a while loop to implement basic algorithms in number theory"
+  },
+  "libraryId": "7f9c49e5-5dbb-48ea-8006-6944447abbe6",
+  "version": 4
+ },
+ {
+  "type": "test",
+  "taskId": "test-1886045537",
+  "source": {
+   "name": "Pop This, Not That",
+   "showName": true,
+   "instructions": "Assuming that a list with 6 elements named `names` has already been declared, pop the first, third, and fifth element in this order and print each popped element.\n\nFor example, if `names` is assigned to `['A', 'B', 'C', 'D', 'E', 'F']`, then your code should print `A`, `C`, and `E` in this order. It should also remove these strings from `names`.",
+   "command": "python3 .guides/secure/q3-popthis-test.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 5,
+   "guidance": "The following is a valid solution:\n```python\nprint(names.pop(0))\nprint(names.pop(1))\nprint(names.pop(2))\n```\n\nIf the initial value of `names` was `['A', 'B', 'C', 'D', 'E', 'F']`, then the following follows this solution's flow of execution:\n- The element at index 0 of `names` is removed and printed: `'A'`; `names` is now `['B', 'C', 'D', 'E', 'F']`\n- The element at index 1 of `names` is removed and printed: `'C'`; `names` is now `['B', 'D', 'E', 'F']`\n- The element at index 2 of `names` is removed and printed: `'E'`; `names` is now `['B', 'D', 'F']`\n\nThere are two caveats in this problem:\n1. List indexing starts at 0. When the problem refers to the \"first element\", it is really referring to the element at index 0.\n2. When each element is removed, the index of every element after it is decreased by 1. This is why the solution appears to remove the elements at indices `0`, `1`, and `2`; each `pop` operation shifts the subsequent elements, so this is equivalent to the elements at indices `0`, `2`, and `4` in the original list.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     },
+     {
+      "name": "Content",
+      "value": "Modifying Lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     }
+    ],
+    "files": [
+     "Q3_PopThis.py",
+     ".guides/secure/q3-popthis-test.py",
+     ".guides/secure/try_dep.py"
+    ],
+    "layout": "2-panels",
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "Q3_PopThis.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT write a program that pops multiple specified elements from a list"
+  },
   "libraryId": "7f9c49e5-5dbb-48ea-8006-6944447abbe6",
   "version": 1
  }

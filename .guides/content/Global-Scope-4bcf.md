@@ -14,24 +14,13 @@ def say_hello():
 say_hello()
 ```
 
-{try it}(python3 code/functions/global-scope.py 1)
-
 There is a dotted line around the function because there are limitations on what can be done to global variables. 
 
+{try it}(python3 code/functions/global-scope.py 1)
+
 |||challenge
-## What happens if you:
-* Modify `greeting` inside the function:
-```python
-greeting = "Hello"
-
-def say_hello():
-    """Print a greeting"""
-    greeting = "Bonjour"
-    print(greeting)
-
-say_hello()
-print(greeting)
-```
+## Your Turn!
+- What if you wanted to change the greeting, but just inside the say_hello function? Take advantage of the local scope of variables defined within functions to use the variable greeting to print "Bonjour" within the say_hello function.
 
 |||
 
@@ -60,19 +49,9 @@ print(greeting)
 {try it}(python3 code/functions/global-scope.py 3)
 
 |||challenge
-## What happens if you:
-* Make the code look like this:
-```python
-def say_hello():
-    """Demonstrate how to use the global keyword"""
-    global greeting
-    greeting = "Bonjour"
-    print(greeting)
-
-say_hello()
-print(greeting)
-```
-* Flip the order of `say_hello()` and `print(greeting)`, and run the program again?
+## Your Turn!
+- Define the global variable greeting within the say_hello function. Next, call the function and then print out greeting. Does this yield the same result?
+- What happens if you switch the function definition and the print statement?
 
 |||
 

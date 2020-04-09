@@ -1,4 +1,4 @@
-* ### Define helper function
+* ### Know what a helper function is
 * ### Demonstrate two ways to implement helper functions
 * ### Define function composition
 * ### Identify two benefits to function composition

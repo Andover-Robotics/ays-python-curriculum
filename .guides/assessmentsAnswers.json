@@ -59,5 +59,41 @@
    "active": null
   },
   "results": []
+ },
+ {
+  "taskId": "code-output-compare-1033494422",
+  "points": 1,
+  "results": [
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hello World!\"}]}",
+    "timestamp": 1586373715418,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"Hello World!\\n\"}]}",
+    "timestamp": 1586373709892,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1586373549638,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1586373527567,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"Hi\\n\"}]}",
+    "timestamp": 1586373409672,
+    "state": "fail"
+   }
+  ]
  }
 ]

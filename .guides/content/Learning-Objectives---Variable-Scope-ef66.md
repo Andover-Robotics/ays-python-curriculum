@@ -1,6 +1,7 @@
-* ### Differentiate between global and local scope
+* ### Learn what scope is
+* ### Learn what global and local variables are
 * ### Use scope resolution to evaluate functions using global variables
-* ### Identify the role of the `global` keyword
+* ### Know how to use the `global` keyword
 
 |||guidance
 ## Assumptions

@@ -1,0 +1,8 @@
+print('Watch me count from 1 to 10:')
+print('1')
+print('2')
+print('4')
+print('5')
+print('7')
+print('8')
+print('10')

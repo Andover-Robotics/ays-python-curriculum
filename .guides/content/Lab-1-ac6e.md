@@ -25,7 +25,7 @@ print(movie_data)
 
 {try it}(python3 code/functions/movie-app.py 1)
 
-<details><summary>**What does "pass" mean?**</summary>Think of `pass` as a placeholder for a function. We know that the function needs to do something or else an error message will appear. Using `pass` means that the function will not do anything, but there will not be an error message either.</details>
+<details><summary>**What does "pass" mean?**</summary>Think of `pass` as a placeholder for a function. We know that the function needs to do something or else an error message will appear. Using `pass` means that the function will not do anything, but there will not be an error message either. This helps us to increase the modularity of our programs by allowing you to work on other par</details>
 
 Using `with open`, read the entire CSV file and then pass it to a `csv.reader`. Create the local variable `movie_info` and set it to an empty list. Use a for loop to iterate through the file and append each row to the list `movie_info`. Once done iterating through the file, return `movie_info`. Running the program now should return a list of lists with a bunch of information that is hard to understand.
 

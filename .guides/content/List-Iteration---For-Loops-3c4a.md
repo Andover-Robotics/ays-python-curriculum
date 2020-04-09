@@ -1,6 +1,6 @@
 ## Iterating Over Lists
 
-Iterating over a list allows you to deal with all of the elements in a list individually. Iterating over the list means to start with the element at index 0, and then progress until you reach the end of the list. A `for` loop is used to iterate over a list.
+In a computer program, repetition is also called **iteration**. Iterating over a list allows you to deal with all of the elements in a list individually. Iterating over the list means to start with the element at index 0, and then progress until you reach the end of the list. A `for` loop is used to iterate over a list.
 
 ![Iteration Variable](.guides/images/iterating-list-variable-name.png)
 

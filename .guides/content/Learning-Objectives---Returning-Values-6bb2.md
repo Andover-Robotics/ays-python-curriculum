@@ -1,7 +1,7 @@
-* ### Use the `return` keyword to return a value
+* ### Learn what returning is and why functions return things
 * ### Identify the return value of the print statement
 * ### Demonstrate the ability to return several different data types
-* ### Define a side effects
+* ### Define a side effect
 
 |||guidance
 ## Assumptions

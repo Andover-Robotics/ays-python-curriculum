@@ -37,19 +37,11 @@ print(my_var)
 
 
 |||challenge
-## What happens if you:
-* Add the parameter `my_var` to the `print_scope` function and pass `my_var` to `print_scope` in the function call?
-```python
-my_var = "global scope"
+## Your Turn - Find a workaround!
 
-def print_scope(my_var):
-    """Demonstrate local scope vs global scope"""
-    my_var = "local scope"
-    print(my_var)
+- Let’s say you are writing a say_hello function for a friend. This friend HATES global variables and has one request: that you don’t use any! However, they want to define a variable outside of the function and then modify it within the function (and have the new value saved in after the function call). Is it possible to still accomplish this? Your friend loves parameters...
 
-print_scope(my_var)
-print(my_var)
-```
+<details><summary>**Solution**</summary> Although you can use a parameter, it won't be modified afterwards without the global keyword. However, you can do something called returning a value, which is the topic of the next section!</details>
 
 |||
 

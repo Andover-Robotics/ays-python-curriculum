@@ -90,6 +90,10 @@ numbers.insert(3, 4)
 
 In Python, you can use the addition operator (`+`) between two lists in order to combine them. For example, `[1, 9, 3] + [8, 2, 4]` is equal to `[1, 9, 3, 8, 2, 4]`. 
 
+## _How do I do $x$_?
+
+If it is generic enough, Python probably has you covered with their many list functionalities, which are officially documented [here](https://docs.python.org/3/library/stdtypes.html#list). Feel free to browse through the documentation to find built-in solutions. If you want to find the index of a given element in a list, for example, Python has you covered with `list.index(...)`.
+
 ## Check your understanding
 
 By now, you should know how to get the length of a list, add elements, remove elements, change elements, and combine lists.
@@ -97,5 +101,3 @@ By now, you should know how to get the length of a list, add elements, remove el
 {Check It!|assessment}(fill-in-the-blanks-1796257491)
 
 {Check It!|assessment}(fill-in-the-blanks-2837205768)
-
-{Check It!|assessment}(fill-in-the-blanks-3547173064)

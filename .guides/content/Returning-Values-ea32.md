@@ -2,7 +2,11 @@
 
 ## The Return Keyword
 
-Every function in Python returns a value. Think of the `len` function. This function returns the length (an int) of either a string or list. So the return value of `len` is of type int. `len` does not print anything to the screen, it just returns a number. From here on out, functions will no longer use the print statement. Instead, functions will return a value — use the `return` keyword in place of `print`.
+So far, all the functions you have defined yourself have just printed things out. If you set a variable equal to a call of one of your functions, there would be nothing inside the variable. But what if you wanted to define a function such that the result it produces wasn't just printed, but saved so that it could be placed into any variable you want, and more? 
+
+Think of the `len` function. This function returns the length (an int) of either a string or list. If you were to say: x = len(my_list), x would be an integer representing the length of the list you used as a parameter. So the return value of `len` is of type int. `len` does not print anything to the screen, it just returns a number. (Functions that don't return anything do exist -- they are known as NoneType, or void, functions.)
+
+Example of a function that uses return:
 
 ```python
 def add_five(num):
@@ -18,7 +22,7 @@ The program no longer prints anything to the screen. That is because the functio
 
 ```python
 def add_five(num):
-    """Add five to the parameter num"""
+    """Add five to the parameter num and RETURN the function"""
     return(num + 5)
   
 new_number = add_five(10)
@@ -28,8 +32,8 @@ print(new_number)
 {try it}(python3 code/functions/returning-values.py 2)
 
 |||challenge
-## What happens if you:
-* Remove the last two lines of the program and replace them with this: `print(add_five(10))`?
+## Your Turn!
+- Can you reduce the two lines of code after the function definition into one line?
 
 |||
 
@@ -62,9 +66,9 @@ print(return_string(" friend"))
 {try it}(python3 code/functions/returning-values.py 4)
 
 |||challenge
-## Can you write a function that returns a list?
-If you want to return a list, it is a good idea to have a list be passed as a parameter. Modify the list in some way, and then return it to the program.
-<details><summary>**One possible solution**</summary>The code below takes a list of numbers as a parameter. Each element of the list is multiplied by 5, and the new list is returned. <img src=".guides/images/return-list.png" /></details>
+## Your Turn!
+Can you return a list? Write a function that will take in a list of numbers as a parameter, multiply each value in the list by 5, and then return the resulting list. 
+<details><summary>**Solution**</summary>The code below takes a list of numbers as a parameter. Each element of the list is multiplied by 5, and the new list is returned. <img src=".guides/images/return-list.png" /></details>
 
 |||
 

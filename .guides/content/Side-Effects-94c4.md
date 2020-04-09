@@ -2,11 +2,15 @@
 
 ## Side Effects
 
-Side effects are any changes that a function produces that are external to the function itself. Examples of side effects are printing to the screen, changing a global variable, writing to a file, etc. Sometimes side effects are the desired outcome, but there are many programmers who believe that functions should not have side effects (these are called pure functions). The examples below demonstrate how to incorporate pure functions into programs that have side effects.
+Side effects are any changes that a function produces that modify things outside of the function's scope. Examples of side effects are printing to the screen, changing a global variable, writing to a file, etc. Sometimes side effects are the desired outcome, but there are many programmers who believe that functions should not have side effects (these are called pure functions). 
+
+This belief is due to the idea that functions you write in one program can and should be applied to others to avoid repeating work. If your functions depend on global variables or otherwise change things outside of their scope, it not only makes it more difficult to catch an error, but it makes them impossible to reuse without significant modification.
+
+The examples below demonstrate how to incorporate pure functions into programs that have side effects.
 
 ### Modify a Global Variable
 
-Global variables can be modified by a function without using the `global` keyword, which is a side effect. In the for loop, the new value of `my_num` is calculated by calling the function `add_5`. You can see the value of `my_num` change each time the loop runs.
+Global variables can be modified by a function without using the `global` keyword (using the global keyword is a side effect). This is accomplished by simply assigning the return value of the desired function into the global variable. In the for loop, the new value of `my_num` is calculated by calling the function `add_5`. You can see the value of `my_num` change each time the loop runs.
 
 ```python
 my_num = 0
@@ -24,18 +28,33 @@ for i in range(10):
 {try it}(python3 code/functions/side-effects.py 1)
 
 |||challenge
-## What happens if you:
-* Change the program to look like this:
+## Your Turn! 
+- You are given a program that looks like this: 
 ```python
-def add_5():
-    """Add 5 to my_num and return the new number"""
+my_num = 0
+
+def subtract_5():
+    """Subtract 5 from my_num and return the new number"""
     return(my_num + 5)
   
 for i in range(10):
-    my_num = add_5()
+    my_num = subtract_5()
     print(my_num)
 ```
-<details><summary>**Why the above code is not preferred**</summary>The code where `add_5` has no parameters produces the exact same output as the code where `add_5` has a parameter. However, the code where `add_5` has a parameter is preferable to the code where `add_5` does not have a parameter. The function without the parameter relies on the global variable `my_num`. If you were to copy/paste this function into another program, it would only work if there was a global variable named `my_num`. The function with the parameter, however, will work in used in another program. Having the parameter means the function is not dependent upon specific global variables. This reduces the chance for an error.</details>
+- In this program, we never call the function until my_num is defined. However, that may not be the case in other programs, leading to errors. Your task is to fix it so that you can reuse the function in other programs. 
+
+<details><summary>**Solution**</summary>
+```python
+  def subtract_5(my_num):
+    """Subtract 5 from my_num and return the new number"""
+    return(my_num + 5)
+  
+my_num = 0
+for i in range(10):
+    my_num = subtract_5(my_num)
+    print(my_num)
+```
+</details>
 
 |||
 
@@ -74,6 +93,8 @@ print(output(2))
 
 ### Are Side Effects Bad?
 
-No, side effects are not bad. In fact, they may be the desired result. However, the more side effects a function produces, the greater the risk of introducing a bug. Think about the functions you are writing. If possible, break up your code into several smaller functions, and only introduce side effects when necessary. This may mean you have to write more code, but if this keeps you from having to spend a lot of time debugging, then it it time well spent.
+No, side effects are not bad. In fact, they may be the desired result. However, the more side effects a function produces, the greater the risk of introducing a bug, because it's more difficult to see where your variables are being edited if that's happening from inside a function. On the other hand, if your function only returns a value and doesn’t change anything outside of that, it is much easier to track the function to which a bug belongs. Additionally, functions you write in one program can and should be applied to others to avoid repeating work. If your functions depend on global variables or otherwise change things outside of their scope, it not only makes it more difficult to catch an error, but it makes them impossible to reuse without significant modification.
+
+Think about the functions you are writing. If possible, break up your code into several smaller functions, and only introduce side effects when necessary. This may mean you have to write more code, but if this keeps you from having to spend a lot of time debugging, then it is time well spent.
 
 {Check It!|assessment}(multiple-choice-511526029)
