@@ -1,4 +1,9 @@
 ----------
+|||guidance
+
+Time estimation: 5 minutes.
+
+|||
 
 ## Whitespace
 
@@ -7,7 +12,7 @@ Whitespace refers to indentations and blank lines in your program. Indentations 
 ```python
 def greet_twice():
     print("Hello")
-print("Hello")
+print("Goodbye")
 ```
 
 {try it}(python3 code/functions/whitespace.py 1)

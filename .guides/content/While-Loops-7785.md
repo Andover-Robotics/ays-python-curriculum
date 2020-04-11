@@ -38,7 +38,7 @@ while count < 5:
     print("Hello")
 ```
 
-Since the variable `count` never gets incremented. It remains 0, and 0 will forever be less than 5. So the loop will never stop.
+Since the variable `count` never gets incremented, it remains 0, and 0 will forever be less than 5. So the loop will never stop.
 
 |||warning
 Run the code above to see what happens. Python will eventually stop the loop due to an output limit, but it will take some time before this happens. Since for loops run for a predetermined amount of time, you do not see infinite loops with them.

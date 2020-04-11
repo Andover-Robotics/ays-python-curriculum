@@ -92,7 +92,7 @@ In Python, you can use the addition operator (`+`) between two lists in order to
 
 ## _How do I do $x$_?
 
-If it is generic enough, Python probably has you covered with their many list functionalities, which are officially documented [here](https://docs.python.org/3/library/stdtypes.html#list). Feel free to browse through the documentation to find built-in solutions. If you want to find the index of a given element in a list, for example, Python has you covered with `list.index(...)`.
+If it is generic enough, Python probably has you covered with their many list functionalities, which are officially documented [here](https://docs.python.org/3/tutorial/datastructures.html). Feel free to browse through the documentation to find built-in solutions. If you want to find the index of a given element in a list, for example, Python has you covered with `list.index(...)`.
 
 ## Check your understanding
 

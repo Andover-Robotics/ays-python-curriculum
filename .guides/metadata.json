@@ -522,6 +522,18 @@
    "learningObjectives": ""
   },
   {
+   "id": "ddddee77-4652-1fa0-be3a-ab2fe3e9050a",
+   "title": "Learning Objectives - If Statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---If-Statement-dddd.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "14964fdf-639e-4c68-0f11-3e193d5372ca",
    "title": "If Statement Pt. 1",
    "files": [
@@ -587,6 +599,18 @@
    "learningObjectives": ""
   },
   {
+   "id": "f032401c-a71e-8b21-e7d4-6e195e5be50c",
+   "title": "Learning Objectives - Else Statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Else-Statement-f032.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "3c2acdb7-eb3b-a5ea-7eff-c48483348712",
    "title": "If Else Statement",
    "files": [
@@ -627,6 +651,18 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/If-Else-Statement-Practice-4f2b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ae31b74e-8c15-656c-fcc6-e449e99edfed",
+   "title": "Learning Objectives - Compound Conditions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Compound-Conditions-ae31.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -685,6 +721,18 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Compound-Conditional-Practice-403e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "14add17c-fdfe-91d8-7a06-d6f5ea805aed",
+   "title": "Learning Objectives - Elif Statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Elif-Statement-14ad.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -779,22 +827,17 @@
   },
   {
    "id": "2ee9988d-f54e-5754-b88f-dede72852e94",
-   "title": "Lab - If Else Statement",
+   "title": "Review Question 2",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "code/selection/lab2.py",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab---If-Else-Statement-2ee9.md",
+   "content-file": ".guides/content/Review-Question-2-2ee9.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -802,22 +845,17 @@
   },
   {
    "id": "5e36fc8f-e41c-27d7-f38c-ebc0fd2c589c",
-   "title": "Lab - Compound Conditional",
+   "title": "Review Question 3",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "code/selection/lab3.py",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab---Compound-Conditional-5e36.md",
+   "content-file": ".guides/content/Review-Question-3-5e36.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -825,37 +863,28 @@
   },
   {
    "id": "f5ca24a5-9394-605a-4d9d-8f3abbd367bb",
-   "title": "Lab - If Elif Else Statement",
+   "title": "Review Question 4",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "code/selection/lab4.py",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab---If-Elif-Else-Statement-f5ca.md",
+   "content-file": ".guides/content/Review-Question-4-f5ca.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
   },
   {
-   "id": "e7b62705-b4f5-e059-eafc-29b510e47f59",
-   "title": "Lab Challenge - Month of the Year",
+   "id": "dfc92329-17c7-6133-dbff-368a033c22ae",
+   "title": "Lab - Rock Paper Scissors",
    "files": [
     {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/selection/lab_challenge.py",
+     "path": "rps.py",
      "panel": 0,
      "action": "open"
     }
@@ -863,122 +892,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-Challenge---Month-of-the-Year-e7b6.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "37655da0-d1c6-290b-df49-00c23f812e1e",
-   "title": "Exercise 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/selection/exercise1.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-1-3765.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "3cdc22f5-d0ab-d325-9dde-a9eec918a796",
-   "title": "Exercise 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/selection/exercise2.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-2-3cdc.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "1f8b6a17-f7da-fa80-622f-45ad4d10c761",
-   "title": "Exercise 3",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/selection/exercise3.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-3-1f8b.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "b04ead5f-ddca-2b8f-d756-ceaea7cc51dd",
-   "title": "Exercise 4",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/selection/exercise4.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-4-b04e.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "2ed8aa68-81e8-5cce-54f6-5233001ee70b",
-   "title": "Exercise 5",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/selection/exercise5.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-5-2ed8.md",
+   "content-file": ".guides/content/Lab---Rock-Paper-Scissors-dfc9.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4013,7 +3927,7 @@
   },
   {
    "id": "d8a7536c-aa98-ad83-3b0d-71feefa5a7d8",
-   "title": "Docstring",
+   "title": "The Help Function",
    "files": [
     {
      "path": "#tabs",
@@ -4028,7 +3942,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Docstring-d8a7.md",
+   "content-file": ".guides/content/The-Help-Function-d8a7.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

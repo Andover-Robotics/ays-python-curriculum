@@ -222,6 +222,12 @@
      "type": "section",
      "children": [
       {
+       "title": "Learning Objectives - If Statement",
+       "id": "8259430f-2cde-277c-8608-65014e38c32d",
+       "type": "page",
+       "pageId": "ddddee77-4652-1fa0-be3a-ab2fe3e9050a"
+      },
+      {
        "title": "If Statement Pt. 1",
        "id": "c48ab2c8-e863-5054-9b21-824a424c3f3e",
        "type": "page",
@@ -247,6 +253,12 @@
      "type": "section",
      "children": [
       {
+       "title": "Learning Objectives - Else Statement",
+       "id": "1107b264-1557-84dc-9620-452f17846cdd",
+       "type": "page",
+       "pageId": "f032401c-a71e-8b21-e7d4-6e195e5be50c"
+      },
+      {
        "title": "If Else Statement",
        "id": "10ef3361-5f0b-7978-7424-75f4840ef85b",
        "type": "page",
@@ -265,6 +277,12 @@
      "id": "cc198568-1289-4aca-c10f-8bcaa64bd7ad",
      "type": "section",
      "children": [
+      {
+       "title": "Learning Objectives - Compound Conditions",
+       "id": "f4201a4e-efcf-5fd4-f22d-14c634dda694",
+       "type": "page",
+       "pageId": "ae31b74e-8c15-656c-fcc6-e449e99edfed"
+      },
       {
        "title": "Compound Conditional Pt. 1",
        "id": "747ad0ea-3c3f-90b2-0728-4f2318ba6953",
@@ -290,6 +308,12 @@
      "id": "40f8d753-add9-10a0-32ad-f6a7e502dc35",
      "type": "section",
      "children": [
+      {
+       "title": "Learning Objectives - Elif Statement",
+       "id": "438797ff-f46e-324d-b495-10784927eaf6",
+       "type": "page",
+       "pageId": "14add17c-fdfe-91d8-7a06-d6f5ea805aed"
+      },
       {
        "title": "Elif Statement",
        "id": "7c9b011e-520c-0098-b31e-8d4b81046d30",
@@ -322,65 +346,35 @@
        "pageId": "c9f50f42-4e9a-d695-fd5e-b74e1e98933c"
       },
       {
-       "title": "Lab - If Else Statement",
+       "title": "Review Question 2",
        "id": "9c0a664e-7e75-0a66-1ff1-361269a57fbd",
        "type": "page",
        "pageId": "2ee9988d-f54e-5754-b88f-dede72852e94"
       },
       {
-       "title": "Lab - Compound Conditional",
+       "title": "Review Question 3",
        "id": "bf3f3bfd-656d-e7c8-548c-fc2387b66a44",
        "type": "page",
        "pageId": "5e36fc8f-e41c-27d7-f38c-ebc0fd2c589c"
       },
       {
-       "title": "Lab - If Elif Else Statement",
+       "title": "Review Question 4",
        "id": "a20e7858-3110-0cda-aba0-2177292324d2",
        "type": "page",
        "pageId": "f5ca24a5-9394-605a-4d9d-8f3abbd367bb"
-      },
-      {
-       "title": "Lab Challenge - Month of the Year",
-       "id": "a3ed2a6a-f0f3-f1cc-6a5d-61f2c023e545",
-       "type": "page",
-       "pageId": "e7b62705-b4f5-e059-eafc-29b510e47f59"
       }
      ]
     },
     {
-     "title": "Coding Exercises - Conditionals",
+     "title": "Labs - Conditionals",
      "id": "f6e59f84-c25c-6e36-241d-6c570d239d90",
      "type": "section",
      "children": [
       {
-       "title": "Exercise 1",
-       "id": "dd73a1b3-9f00-3996-8116-cc98d0bb901a",
+       "title": "Lab - Rock Paper Scissors",
+       "id": "b42834dd-4cfd-c944-bf6c-10dbaad13778",
        "type": "page",
-       "pageId": "37655da0-d1c6-290b-df49-00c23f812e1e"
-      },
-      {
-       "title": "Exercise 2",
-       "id": "fb3b71c5-60fd-598e-55af-b0634521492b",
-       "type": "page",
-       "pageId": "3cdc22f5-d0ab-d325-9dde-a9eec918a796"
-      },
-      {
-       "title": "Exercise 3",
-       "id": "2c8d5795-45cd-e3f4-120c-c81692d3d66e",
-       "type": "page",
-       "pageId": "1f8b6a17-f7da-fa80-622f-45ad4d10c761"
-      },
-      {
-       "title": "Exercise 4",
-       "id": "31e67437-0635-6228-2849-551bfd93ad67",
-       "type": "page",
-       "pageId": "b04ead5f-ddca-2b8f-d756-ceaea7cc51dd"
-      },
-      {
-       "title": "Exercise 5",
-       "id": "2813cec3-3761-f1db-fcc2-55e6444b7dcb",
-       "type": "page",
-       "pageId": "2ed8aa68-81e8-5cce-54f6-5233001ee70b"
+       "pageId": "dfc92329-17c7-6133-dbff-368a033c22ae"
       }
      ]
     }
@@ -1550,7 +1544,7 @@
        "pageId": "da333948-dca9-bf7c-6c4c-dcfeadf9d71d"
       },
       {
-       "title": "Docstring",
+       "title": "The Help Function",
        "id": "1fc1455b-ccc6-f4df-e5fd-79902ab61568",
        "type": "page",
        "pageId": "d8a7536c-aa98-ad83-3b0d-71feefa5a7d8"

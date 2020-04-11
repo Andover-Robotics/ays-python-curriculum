@@ -134,10 +134,70 @@
   "taskId": "parsons-puzzle-2081035412",
   "points": 0,
   "state": {
-   "trashHash": "3_0-1_0-0_0-4_0-2_0",
-   "solutionHash": "5_31",
+   "trashHash": "5_0-3_0-4_0",
+   "solutionHash": "0_0-1_1-2_0",
    "toggleStates": "{}"
   },
+  "results": [
+   {
+    "points": 1,
+    "guidance": "A function needs to be defined before it can be called. In Python, function definitions are started with the keyword `def`. Function definitions should start with the function header, then the docstring, and finally the function body. Be sure to indent the docstring and the function body. To call a function, write the function's name (as stated in the function header) followed by parentheses. The function call should not be indented.\n\n```python\ndef caesar_quote():\n    print(\"Veni, vidi, vici\")\ncaesar_quote()\n```",
+    "trashHash": "5_0-3_0-4_0",
+    "solutionHash": "0_0-1_12-2_0",
+    "toggleStates": "{}",
+    "studentCode": "def caesar_quote():\n  print(\"Veni, vidi, vici\")\ncaesar_quote()",
+    "timestamp": 1586615739603,
+    "state": "pass"
+   },
+   {
+    "points": 1,
+    "guidance": "A function needs to be defined before it can be called. In Python, function definitions are started with the keyword `def`. Function definitions should start with the function header, then the docstring, and finally the function body. Be sure to indent the docstring and the function body. To call a function, write the function's name (as stated in the function header) followed by parentheses. The function call should not be indented.\n\n```python\ndef caesar_quote():\n    print(\"Veni, vidi, vici\")\ncaesar_quote()\n```",
+    "trashHash": "5_0-3_0-4_0",
+    "solutionHash": "0_0-1_1-2_0",
+    "toggleStates": "{}",
+    "studentCode": "def caesar_quote():\n  print(\"Veni, vidi, vici\")\ncaesar_quote()",
+    "timestamp": 1586615731391,
+    "state": "pass"
+   }
+  ]
+ },
+ {
+  "taskId": "multiple-choice-1896286432",
+  "points": 0,
+  "state": {
+   "active": "fcfe8e17-c402-f9a7-395e-fdd5aacbc747"
+  },
   "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1983298612",
+  "points": 1,
+  "state": {
+   "active": [
+    "def",
+    ":",
+    "#",
+    "my_function"
+   ]
+  },
+  "results": [
+   {
+    "guidance": "Function headers start with the `def` keyword and end with a `:`. The docstring starts and ends with `\"\"\"`. Finally, you call a function by writing its name followed by parentheses.\n\n```python\ndef my_function():\n    \"\"\"Print the string 'This is a function'.\"\"\"\n    print(\"This is a function\")\n\nmy_function()\n```",
+    "current": [
+     "def",
+     ":",
+     "#",
+     "my_function"
+    ],
+    "right": [
+     "def",
+     ":",
+     "#",
+     "my_function"
+    ],
+    "timestamp": 1586615775112,
+    "state": "pass"
+   }
+  ]
  }
 ]

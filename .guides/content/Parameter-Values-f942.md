@@ -6,12 +6,12 @@ Typically, parameter values are assigned based on their position in the function
 
 ```python
 def subtract(num1, num2):
-    """Subtract the second parameter from the first"""
+    # Subtracts the second parameter from the first
     print(num1 - num2)
     
-subtract(5, 2)#returns 5 - 2 = 3
-subtract(2, 5)#returns 2 - 5 = -3
-subtract(num2=2, num1=5)# can you predict what this returns?
+subtract(5, 2) # returns 5 - 2 = 3
+subtract(2, 5) # returns 2 - 5 = -3
+subtract(num2=2, num1=5) # can you predict what this returns?
 ```
 
 {try it}(python3 code/functions/parameter-values.py 1)
