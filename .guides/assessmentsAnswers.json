@@ -95,5 +95,49 @@
     "state": "fail"
    }
   ]
+ },
+ {
+  "taskId": "multiple-choice-969795572",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-1838402046",
+  "points": 0,
+  "results": [
+   {
+    "guidance": "The simplest way to solve this problem is to make a series of 12 if-statements.\n\n```python\nif month == 1:\n  print(\"January\")\nif month == 2:\n  print(\"February\")\nif month == 3:\n  print(\"March\")\nif month == 4:\n  print(\"April\")\nif month == 5:\n  print(\"May\")\nif month == 6:\n  print(\"June\")\nif month == 7:\n  print(\"July\")\nif month == 8:\n  print(\"August\")\nif month == 9:\n  print(\"September\")\nif month == 10:\n  print(\"October\")\nif month == 11:\n  print(\"November\")\nif month == 12:\n  print(\"December\")\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    month = \\n           ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    month = \\n           ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    month = \\n           ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    month = \\n           ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    month = \\n           ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    month = \\n           ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    month = \\n           ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1586466658907,
+    "state": "fail"
+   },
+   {
+    "guidance": "The simplest way to solve this problem is to make a series of 12 if-statements.\n\n```python\nif month == 1:\n  print(\"January\")\nif month == 2:\n  print(\"February\")\nif month == 3:\n  print(\"March\")\nif month == 4:\n  print(\"April\")\nif month == 5:\n  print(\"May\")\nif month == 6:\n  print(\"June\")\nif month == 7:\n  print(\"July\")\nif month == 8:\n  print(\"August\")\nif month == 9:\n  print(\"September\")\nif month == 10:\n  print(\"October\")\nif month == 11:\n  print(\"November\")\nif month == 12:\n  print(\"December\")\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    if \\n      ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    if \\n      ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    if \\n      ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    if \\n      ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    if \\n      ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    if \\n      ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\".guides/secure/conditionals_lab_test.py\\\", line 5, in <module>\\n    exec(student_work)\\n  File \\\"<string>\\\", line 1\\n    if \\n      ^\\nSyntaxError: invalid syntax\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1586466541708,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "fill-in-the-blanks-1796257491",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-2081035412",
+  "points": 0,
+  "state": {
+   "trashHash": "3_0-1_0-0_0-4_0-2_0",
+   "solutionHash": "5_31",
+   "toggleStates": "{}"
+  },
+  "results": []
  }
 ]

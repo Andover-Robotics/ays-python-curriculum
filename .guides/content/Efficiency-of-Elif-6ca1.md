@@ -51,9 +51,9 @@ else:
 * Change `grade` to `0` and then run both programs through the visualizer?
 * Change `grade` to `100` and then run both programs through the visualizer?
 
-|||
-
 [Code Visualizer](open_tutor code/selection/elif-efficiency.py)
 {try it}(python3 code/selection/elif-efficiency.py 3)
+
+|||
 
 {Check It!|assessment}(fill-in-the-blanks-2639153112)

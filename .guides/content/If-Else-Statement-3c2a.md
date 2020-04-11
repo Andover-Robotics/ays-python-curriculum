@@ -1,8 +1,10 @@
 ----------
 
-## If Else Syntax
+## If Else Statement
 
 The if else statement is used when you want something to specific to happen if the boolean expression is true and if you want something else to happen if it is false. Use the `else` keyword to introduce the code to run when false. 
+
+## Syntax
 
 Notice, `else` is aligned with the `if` keyword (no indentation) and has a `:`. You do not write another boolean expression with `else`.
 
@@ -15,18 +17,17 @@ else:
     print("The boolean expression is false")
 ```
 
-[Code Visualizer](open_tutor code/selection/if-else-statement-syntax.py)
-{try it}(python3 code/selection/if-else-statement-syntax.py 1)
+[Code Visualizer](open_tutor code/selection/if-else-statement.py 1)
+{try it}(python3 code/selection/if-else-statement.py 1)
 
 |||challenge
 ## What happens if you:
 * Change `4` to `6`?
 * Indent the `else` statement four spaces?
 
+[Code Visualizer](open_tutor code/selection/if-else-statement.py 2)
+{try it}(python3 code/selection/if-else-statement.py 2)
+
 |||
 
-[Code Visualizer](open_tutor code/selection/if-else-statement-syntax.py)
-{try it}(python3 code/selection/if-else-statement-syntax.py 2)
-
 {Check It!|assessment}(multiple-choice-3776588336)
-

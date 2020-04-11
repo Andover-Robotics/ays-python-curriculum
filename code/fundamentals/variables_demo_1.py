@@ -1,1 +1,1 @@
-print('Hello '.upper() + 'World! '.lower() + 'I am learning Python!'.capitalize())
+print('Hello ' + 'World! ' + 'I am learning Python!')

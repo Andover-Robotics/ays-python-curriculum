@@ -100,7 +100,7 @@ You should be able to iterate through a list and modify each element as needed.
 * Determine the length of your list of favorite hobbies without using `len`.
 * Implement the "filter" pattern: populate another list with all favorite hobbies that are shorter than 5 letters.
 * Implement the "map" pattern in place: change each favorite hobby to be uppercase and end in an exclamation mark. Check your work with `print`.
-* **Challenge:** Implement insertion sort, but not in place. Given `numbers = [9, 3, 2, 7, 1, 5, 6]`, populate another list with the elements from `numbers` sorted smallest to largest. Test your implementation with different inputs. _Hint:_ use `list.insert`. <details><summary>More hints</summary>Insertion sort is based on the idea that the list you are populating is always sorted. Therefore, each step involves finding the right position to insert the next element.</details>
+<!--* **Challenge:** Implement insertion sort, but not in place. Given `numbers = [9, 3, 2, 7, 1, 5, 6]`, populate another list with the elements from `numbers` sorted smallest to largest. Test your implementation with different inputs. _Hint:_ use `list.insert`. <details><summary>More hints</summary>Insertion sort is based on the idea that the list you are populating is always sorted. Therefore, each step involves finding the right position to insert the next element.</details>-->
 
 |||
 

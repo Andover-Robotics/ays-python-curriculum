@@ -1,5 +1,4 @@
 my_variable = 'Hello World'
-print(len(my_variable))
-print(my_variable.upper())
-print(my_variable.lower())
-print(my_variable.capitalize())
+print(my_variable)
+print(my_variable + ' I am learning Python!')
+print(my_variable * 2)

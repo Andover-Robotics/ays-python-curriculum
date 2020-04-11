@@ -45,16 +45,18 @@ greet_twice()
 ## Your Turn!
 * Instead of greeting the user twice, greet them four times without changing the function definition.
 
+{try it}(python3 code/functions/call-function.py 3)
 |||
 
-{try it}(python3 code/functions/call-function.py 3)
+
 
 |||challenge
 ## Your Turn!
 * Customize the function definition to use your name when it greets you!
 
+{try it}(python3 code/functions/call-function.py 4)
 |||
 
-{try it}(python3 code/functions/call-function.py 3)
+
 
 {Check It!|assessment}(multiple-choice-1896286432)

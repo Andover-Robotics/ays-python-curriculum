@@ -4643,7 +4643,7 @@
   "source": {
    "name": "if statement reading questions",
    "showName": false,
-   "instructions": "## Reading Question",
+   "instructions": "## Question 2\n\nDrag the blocks into the correct order below. Make sure you properly indent your lines.",
    "initial": "grade = 90\nif grade >= 70:\n    print(\"You passed\")",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
@@ -4652,7 +4652,12 @@
    "points": 1,
    "oneTimeTest": true,
    "metadata": {
-    "tags": [],
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
     "files": [
      "code/selection/if-statement.py"
     ],
@@ -4663,16 +4668,18 @@
       "content": "code/selection/if-statement.py"
      }
     ]
-   }
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
   "type": "multiple-choice",
   "taskId": "multiple-choice-969795572",
   "source": {
-   "name": "formative assessment if statement",
+   "name": "if statement question 3",
    "showName": false,
-   "instructions": "## If Statement\nWhat does an if statement **not** do?",
+   "instructions": "## Question 3\nWhich of the following statements is false?",
    "multipleResponse": false,
    "answers": [
     {
@@ -4683,7 +4690,7 @@
     {
      "_id": "8d0b5862-4883-7f40-a39a-99e671924520",
      "correct": true,
-     "answer": "If statements do not do anything if the boolean expression is false."
+     "answer": "Runs only if the given condition is false."
     },
     {
      "_id": "c6de5aa5-0f84-2082-8027-1d8c90cccca5",
@@ -4696,13 +4703,18 @@
      "answer": "Checks to see if a certain condition is true."
     }
    ],
-   "guidance": "An if statement does not do anything if the boolean expression is false. It only tests to see if a condition is true. A false expression skips the indented code.",
+   "guidance": "An if statement will only run if its conditions are **true**.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
    "metadata": {
-    "tags": [],
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
     "files": [
      "code/selection/if-statement.py"
     ],
@@ -4713,16 +4725,18 @@
       "content": "code/selection/if-statement.py"
      }
     ]
-   }
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-131952751",
   "source": {
-   "name": "Formative assessment if statement",
+   "name": "if statement question 4",
    "showName": false,
-   "instructions": "## Even Numbers\nComplete the if statement below so that it will determine if the variable `num` is greater than 100.",
+   "instructions": "## Question 4\nComplete the if statement below so that it will determine if the variable `num` is greater than 100.",
    "text": "<<<if>>> num > 100<<<:>>>\n        print(\"num is greater than 100\")",
    "guidance": "The boolean expression is already provided. To complete the if statement, the keyword `if` should be used in the first blank, and a `:` should be used in the second.",
    "showGuidanceAfterResponse": true,
@@ -4730,12 +4744,25 @@
    "points": 1,
    "showValues": false,
    "metadata": {
-    "tags": [],
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
     "files": [
      "code/selection/if-statement.py"
     ],
-    "opened": []
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/if-statement.py"
+     }
+    ]
    },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
    "tokens": {
     "blank": [
      "if",
@@ -4842,7 +4869,7 @@
   "source": {
    "name": "Formative assessment 1 if else statement",
    "showName": false,
-   "instructions": "## Debug the Code\nWhat is wrong with the code below? **Hint**, there is more than one right answer.(added for QA purposes ) (another try from macOS 10.14.16, Chrome 77)\n\n```python\nif 3 > 4\nprint(\"This is true\")\nelse\nprint(\"This is false\")\n```",
+   "instructions": "## Question 3\nWhat is wrong with the code below? **Hint**, there is more than one right answer.(added for QA purposes ) (another try from macOS 10.14.16, Chrome 77)\n\n```python\nif 3 > 4\nprint(\"This is true\")\nelse\nprint(\"This is false\")\n```",
    "multipleResponse": true,
    "answers": [
     {
@@ -4872,10 +4899,25 @@
    "points": 1,
    "incorrectPoints": 0,
    "metadata": {
-    "tags": [],
-    "files": [],
-    "opened": []
-   }
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/selection/if-else-statement.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/if-else-statement.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
@@ -5120,7 +5162,7 @@
     {
      "_id": "674fd320-8af5-c8e7-3235-d9b78bae83c9",
      "correct": true,
-     "answer": "If two or more thing have to be true."
+     "answer": "If two or more conditions have to be true."
     },
     {
      "_id": "f9529a87-bc47-7241-d090-27a406419b5d",
@@ -5144,18 +5186,26 @@
    "points": 1,
    "incorrectPoints": 0,
    "metadata": {
-    "tags": [],
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
     "files": [
+     "code/selection/compound-conditional-syntax.py",
      "code/selection/compound-conditionals.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/selection/compound-conditionals.py"
+      "content": "code/selection/compound-conditional-syntax.py"
      }
     ]
-   }
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
@@ -5449,7 +5499,7 @@
   "source": {
    "name": "self check conditionals if",
    "showName": false,
-   "instructions": "## Self-Check If Statements\nSelect all of the statements below that are true with regards to if statements. **Hint**, there is more than one correct answer.",
+   "instructions": "Select all of the statements below that are true with regards to if statements. (There may be more than one correct answer.)",
    "multipleResponse": true,
    "answers": [
     {
@@ -5479,10 +5529,17 @@
    "points": 1,
    "incorrectPoints": 0,
    "metadata": {
-    "tags": [],
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
     "files": [],
     "opened": []
-   }
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
@@ -11604,26 +11661,27 @@
    "name": "order a function definition and function call",
    "showName": false,
    "instructions": "## Formative Assessment\n\nRearrange the code blocks below to define and call the function `caesar_quote`. **Note**, not all of the code blocs will be used.",
-   "initial": "def caesar_quote():\n    \"\"\"Print the Latin version of 'I came, I saw, I conquered'\"\"\"\n    print(\"Veni, vidi, vici\")\ncaesar_quote()\ndefine caesar_quote(): #distractor\ncaesar_quote #distractor\ncaesarQuote() #distractor",
+   "initial": "def caesar_quote():\n    print(\"Veni, vidi, vici\")\ncaesar_quote()\ndefine caesar_quote(): #distractor\ncaesar_quote #distractor\ncaesarQuote() #distractor",
    "options": "{\n  \"sortableId\" : \"sortable\",\n  \"trashId\" : \"sortableTrash\"\n}",
    "grader": "",
-   "guidance": "A function needs to be defined before it can be called. In Python, function definitions are started with the keyword `def`. Function definitions should start with the function header, then the docstring, and finally the function body. Be sure to indent the docstring and the function body. To call a function, write the function's name (as stated in the function header) followed by parentheses. The function call should not be indented.\n\n```python\ndef caesar_quote():\n    \"\"\"Print the Latin version of 'I came, I saw, I conquered'\"\"\"\n    print(\"Veni, vidi, vici\")\ncaesar_quote()\n```",
+   "guidance": "A function needs to be defined before it can be called. In Python, function definitions are started with the keyword `def`. Function definitions should start with the function header, then the docstring, and finally the function body. Be sure to indent the docstring and the function body. To call a function, write the function's name (as stated in the function header) followed by parentheses. The function call should not be indented.\n\n```python\ndef caesar_quote():\n    print(\"Veni, vidi, vici\")\ncaesar_quote()\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
-   "oneTimeTest": true,
+   "oneTimeTest": false,
    "metadata": {
-    "tags": [],
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
     "files": [
      "code/functions/whitespace.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/functions/whitespace.py"
-     }
-    ]
-   }
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
@@ -11633,36 +11691,41 @@
    "name": "formative assessment function basics",
    "showName": false,
    "instructions": "## Formative Assessment\n\nFill in the blanks below to complete a function definition and a function call.",
-   "text": "<<<def>>> my_function()<<<:>>>\n    <<<\"\"\">>>Print the string 'This is a function'.<<<\"\"\">>>\n    print(\"This is a function\")\n\n<<<my_function>>>()",
+   "text": "```python\n<<<def>>> my_function()<<<:>>>\n    <<<#>>>Prints \"This is a function\"\n    print(\"This is a function\")\n\n<<<my_function>>>()\n```",
    "guidance": "Function headers start with the `def` keyword and end with a `:`. The docstring starts and ends with `\"\"\"`. Finally, you call a function by writing its name followed by parentheses.\n\n```python\ndef my_function():\n    \"\"\"Print the string 'This is a function'.\"\"\"\n    print(\"This is a function\")\n\nmy_function()\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "showValues": false,
    "metadata": {
-    "tags": [],
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
     "files": [],
     "opened": []
    },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
    "tokens": {
     "blank": [
      "def",
      ":",
-     "\"\"\"",
-     "\"\"\"",
+     "#",
      "my_function"
     ],
     "text": [
+     "```python\n",
      0,
      " my_function()",
      0,
      "\n    ",
      0,
-     "Print the string 'This is a function'.",
+     "Prints \"This is a function\"\n    print(\"This is a function\")\n\n",
      0,
-     "\n    print(\"This is a function\")\n\n",
-     0,
-     "()"
+     "()\n```"
     ]
    }
   }
@@ -14570,28 +14633,28 @@
   "source": {
    "name": "Strings Review",
    "showName": false,
-   "instructions": "Which of the following code snippets will give `THIS IS A MESSAGE`?",
+   "instructions": "Which of the following strings is valid?",
    "multipleResponse": false,
    "answers": [
     {
      "_id": "90272ebb-b217-ea70-9172-91ed940aa967",
      "correct": false,
-     "answer": "`len('this is a message')`"
+     "answer": "`'It's my string'`"
     },
     {
      "_id": "795c2872-cda9-ce22-53c5-6c0809287b8c",
-     "correct": true,
-     "answer": "`'this is a message'.upper()`"
+     "correct": false,
+     "answer": "`'It\\'s my string\"`"
     },
     {
      "_id": "05f019ac-f0ac-dc3e-f6fa-af12980ee653",
-     "correct": false,
-     "answer": "`'this is a message'.lower()`"
+     "correct": true,
+     "answer": "`\"It's my string\"`"
     },
     {
      "_id": "4116e7db-dab7-bd8e-1c10-e2a64c7bf247",
      "correct": false,
-     "answer": "`'this is a message'.capitalize()`"
+     "answer": "`\"It's my string'`"
     }
    ],
    "guidance": "`len()` gives the length of the string, which would be a number.\n`.upper()` capitalizes every letter in the string, yielding the solution.\n`.lower()` makes every letter in the string lowercase, which is incorrect.\n`.capitalize()` capitalizes only the first letter of the string, which is incorrect.",
@@ -14894,5 +14957,451 @@
   },
   "libraryId": "7f9c49e5-5dbb-48ea-8006-6944447abbe6",
   "version": 1
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-259764082",
+  "source": {
+   "name": "Variable Names Review",
+   "showName": false,
+   "instructions": "Which of the following are valid variable names? (There is more than one correct answer)",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "1c55e2ec-998e-c271-e75d-dc4786a1edc2",
+     "correct": false,
+     "answer": "`1var`"
+    },
+    {
+     "_id": "12be807f-c138-5486-bffe-b90bc24ed2c4",
+     "correct": true,
+     "answer": "`my_variable`"
+    },
+    {
+     "_id": "09be238d-18be-1535-b1f4-a176d0752820",
+     "correct": false,
+     "answer": "`var@1`"
+    },
+    {
+     "_id": "5417d80b-2865-61c7-4206-f6a8665ae075",
+     "correct": true,
+     "answer": "`_var`"
+    },
+    {
+     "_id": "cea1fb67-9bf9-9484-127b-a552db2cfe5f",
+     "correct": true,
+     "answer": "`Var`"
+    },
+    {
+     "_id": "733b5f15-0e1a-42d6-6529-db410a4f47af",
+     "correct": false,
+     "answer": "`var_*`"
+    }
+   ],
+   "guidance": "Remember the rules of variable naming? See the table on the previous page if not.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3589120825",
+  "source": {
+   "name": "if statement question 1",
+   "showName": false,
+   "instructions": "## Question 1\n\nWhich of the following statements will correctly print out `\"yeah homie\"`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "e67af9de-bcf9-9098-2481-0713bedbe91a",
+     "correct": false,
+     "answer": "```python\nfirst_name = \"Joe\"\nlast_name = \"Joe\"\nif first_name == last_name:\n    print(yeah homie)\n```"
+    },
+    {
+     "_id": "f730081d-bb8a-7865-50e2-613caac18905",
+     "correct": false,
+     "answer": "```python\nx = False\nif x:\n    print(\"yeah homie\")\n```"
+    },
+    {
+     "_id": "4adec7ee-4bd0-bfde-2202-d23abf6dd05e",
+     "correct": true,
+     "answer": "``` python\nnum = 80\nif num - 20 > 25:\n    print(\"yeah homie\")\n```"
+    },
+    {
+     "_id": "cb374601-154d-d8e8-23ab-e9bd9d38f11a",
+     "correct": false,
+     "answer": "```python\na = 7\nb = 5\nif a % b == 0:\n    print(yeah homie)\n```"
+    }
+   ],
+   "guidance": "The third choice is the correct answer. Both the first and third answers have true conditionals, but remember that you need to add quotes around strings in order to print them.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/selection/if-statement.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/if-statement.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-676856174",
+  "source": {
+   "name": "if else question 1",
+   "showName": false,
+   "instructions": "## Question 1\n\nWhat is wrong with the following lines of code? (There may be more than one answer)\n```python\nx = 20\nif x < 10\n    print(\"yeah!\")\n    else:\n    print(\"oh no!\")\n```",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "aa972869-e692-a3da-01ed-77372b21bac6",
+     "correct": true,
+     "answer": "There needs to be a `:` after the if statement"
+    },
+    {
+     "_id": "e7a45a83-b9d1-6eea-4fcd-099ea6283ee3",
+     "correct": false,
+     "answer": "The `print` statements should not be indented."
+    },
+    {
+     "_id": "ade5651c-ac4e-0acb-b6d4-6b372c11d04b",
+     "correct": false,
+     "answer": "You need to add a period after each print statement."
+    },
+    {
+     "_id": "bd50d283-b73b-f2ff-e392-7dafdb915069",
+     "correct": true,
+     "answer": "The `else:` should not be indented."
+    }
+   ],
+   "guidance": "There needs to be a `:` after every if and else statement. Also, the else has to be aligned with its corresponding if statement. It should look like this:\n```python\nx = 20\nif x < 10:\n    print(\"yeah!\")\nelse: \n    print(\"oh no!\")\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/selection/if-else-statement.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/if-else-statement.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-190629083",
+  "source": {
+   "name": "if else question 2",
+   "showName": false,
+   "instructions": "## Question 2\n\nWhich of the following will print `\"bruh\"`?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "3d91e22c-504f-82a3-5c96-3b645da3a02f",
+     "correct": true,
+     "answer": "```python\nif True:\n    print(\"bruh\")\nelse:\n    print(\"bruh\")\n```"
+    },
+    {
+     "_id": "e6d4a8e4-cddf-355f-eb8d-1d078446178e",
+     "correct": true,
+     "answer": "```python\na = 23\nif a < 2:\n    print(\"wow\")\nelse:\n    print(\"bruh\")\n```"
+    },
+    {
+     "_id": "a5ae771c-25ea-7bcb-9043-8a8eeb83a07e",
+     "correct": true,
+     "answer": "```python\nx = \"rob\"\ny = \"rob\"\nif x == y:\n    print(\"bruh\")\nelse:\n    print(\"hey\")\n```"
+    },
+    {
+     "_id": "ab7164cd-fbc0-d47a-b44d-725fbcd95f17",
+     "correct": false,
+     "answer": "```python\nnum = 24\nif num / 6 == 4:\n    print(\"boi\")\nelse:\n    print(\"bruh\")\n```"
+    }
+   ],
+   "guidance": "The first option will print `\"bruh\"` no matter what.\n\nIn the second option, 23 is not less than 2, so it runs the else statement, which prints out `\"bruh\"`.\n\nIn the third option, the two strings are the same, so the if statement will run and it will print out `\"bruh\"` as well.\n\nIn the fourth option, 24 divided by 6 does equal 4, so the if statement will run, printing out `\"boi\"`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/selection/if-else-statement.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/if-else-statement.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-670882266",
+  "source": {
+   "name": "compound conditional question 1",
+   "showName": false,
+   "instructions": "## Question 1\n\nWhich of the following will print out `\"nice\"`?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "1b82c9d0-c037-2c33-5f2e-708559a3a3d1",
+     "correct": false,
+     "answer": "```python\nx = 5\ny = 8\nif x == 5 and y < 10\n    print(\"nice\")\nelse\n    print(\"not nice\")"
+    },
+    {
+     "_id": "212af5ab-44e0-330a-8657-244230d5b302",
+     "correct": true,
+     "answer": "```python\na = \"cool\"\nb = \"bruh\"\nc = \"cool\"\nif a == b or a == c:\n    print(\"nice\")\nelse:\n    print(\"not nice\")\n```"
+    },
+    {
+     "_id": "6e9410c3-5774-863f-56fe-559f1a364ea8",
+     "correct": false,
+     "answer": "```python\nmy_var1 = 24\nmy_var2 = 38\nif my_var1 > 30 or my_var2 < 30:\n    print(\"nice\")\nelse:\n    print(\"not nice\")\n```"
+    },
+    {
+     "_id": "d116b2e8-82a5-5a2c-3bb4-309bff1bab6c",
+     "correct": true,
+     "answer": "```python\nnum = 15\nif num > 2 and num < 23:\n    print(\"nice\")\nelse:\n    print(\"not nice\")\n```"
+    }
+   ],
+   "guidance": "The second and fourth options both have true conditionals, and they both have no syntax errors, so they will correctly print out `\"nice\"`.\n\nThe conditional in the first option is true, but it is missing colons (`:`) after the if and else statements, which will result in a syntax error and the code won't run.\n\nThe conditional in the third option is false, so it will print `\"not nice\"` instead.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/selection/compound-conditionals.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/compound-conditionals.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1587707541",
+  "source": {
+   "name": "compound conditional question 2",
+   "showName": false,
+   "instructions": "## Question 2\n\nCorrectly fill in the blank so that the program will print `\"epic\"`.",
+   "text": "```python\nx = 53\ny = 42\nif x < 60 <<<or>>> y <= 40:\n    print(\"epic\")\nelse:\n    print(\"not epic\")\n```",
+   "guidance": "We want the conditional to be true in order for the program to print `\"epic\"`. Since only one of the conditional statements is true, we need an `or` in order for the compound conditional to be true.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/selection/compound-conditionals.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/compound-conditionals.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "or"
+    ],
+    "text": [
+     "```python\nx = 53\ny = 42\nif x < 60 ",
+     0,
+     " y <= 40:\n    print(\"epic\")\nelse:\n    print(\"not epic\")\n```"
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-533937966",
+  "source": {
+   "name": "elif question 1",
+   "showName": false,
+   "instructions": "## Question 1\n\nWhich of the following statements about elif statements is true? (There may be more than one answer)",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "c43d2ca2-25ca-ca51-8ad9-ffe961d6b0c3",
+     "correct": true,
+     "answer": "They allow you to be more precise in your decisions."
+    },
+    {
+     "_id": "5dba4633-cd21-2569-3d16-e9f6751ecdd6",
+     "correct": true,
+     "answer": "They can make your code run more efficiently."
+    },
+    {
+     "_id": "8f938f98-b6d3-68d5-761a-6017d27ded13",
+     "correct": false,
+     "answer": "They do not require a colon afterward."
+    },
+    {
+     "_id": "55b7de4e-44c9-502a-8cdd-216fd9f5442a",
+     "correct": false,
+     "answer": "They can be used without an initial if statement."
+    }
+   ],
+   "guidance": "Elif statements can make your code run more efficiently and precisely when done right. They still follow the typical if/else statement syntax (needs a colon afterward), and they can only be used after an if statement.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/selection/elif-statement.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/elif-statement.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1092689061",
+  "source": {
+   "name": "elif question 2",
+   "showName": false,
+   "instructions": "## Question 2\n\nWhich of the following will correctly print `\"wow\"`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "81e6f2cc-7ce9-4099-7f3e-1b6eaecd9cbe",
+     "correct": false,
+     "answer": "```python\nnum = 10\nif num > 20:\n    print(\"wow\")\nelif num > 10:\n    print(\"woah\")\nelse:\n    print(\"wack\")\n```"
+    },
+    {
+     "_id": "497c7daa-2349-d432-a3ce-4b7cfec923b5",
+     "correct": true,
+     "answer": "```python\na = 25\nif a < 0:\n   print(\"epic\")\nelif a < 20:\n   print(\"cool\")\nelif a < 40:\n   print(\"wow\")\nelse:\n   print(\"woah\")\n```"
+    },
+    {
+     "_id": "e7df3f5e-d16b-73cb-0a80-f4478bde8b54",
+     "correct": false,
+     "answer": "```python\nx = 48\ny = 49\nif x == y:\n    print(\"wow\")\nelif x < y:\n    print(\"kachow\")\nelse:\n    print(\"kapow\")\n```"
+    },
+    {
+     "_id": "c7c4e21d-3284-aa77-0382-de040647d56e",
+     "correct": false,
+     "answer": "```python\nname = \"bob\"\nif name == \"joe\":\n    print(\"nice\")\nelif name == \"carl\":\n    print(\"wow\")\nelif name == \"bob:\n    print(\"cool\")\nelse:\n    print(\"amazing\")\n```"
+    }
+   ],
+   "guidance": "In the first option, `num` is neither greater than 20 nor greater than 10, so it will run the else statement and print `\"wack\"`.\n\nIn the second option, `a` is greater than 20 but less than 40, so the second elif statement will run and print out `\"wow\"`.\n\nIn the third option, `x` is less than `y`, so it will run the first (and only) elif statement, printing out `\"kachow\"`.\n\nIn the fourth option, `name` is equal to `\"bob\"`, so the second elif statement will run and print out `\"cool\"`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/selection/elif-statement.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/elif-statement.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

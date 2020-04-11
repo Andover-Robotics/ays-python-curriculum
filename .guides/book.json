@@ -91,6 +91,12 @@
          "pageId": "7243a5b8-8ad9-cbdb-0e52-91542c7e0edd"
         },
         {
+         "title": "Variable Names Review",
+         "id": "d97009b0-5d63-b8bf-90ba-c1affc9d3f3f",
+         "type": "page",
+         "pageId": "eb29389c-25de-0c35-9bad-22538316aa20"
+        },
+        {
          "title": "Variables - Numbers",
          "id": "72bb4f65-9f40-4cfb-6b5e-27c6e208c577",
          "type": "page",
@@ -149,16 +155,16 @@
          "id": "a7345569-4e3e-1235-bb58-2e4f64af2ce8",
          "type": "page",
          "pageId": "d04b1987-a63a-624c-269f-b944c3af97fc"
-        },
-        {
-         "title": "Variables - Review (Part 6)",
-         "id": "0c5260de-2b0b-8f2b-31e7-56ccf5d0c000",
-         "type": "page",
-         "pageId": "fcd21757-70e4-930d-419c-ef82e3c9a1e3"
         }
        ]
       }
      ]
+    },
+    {
+     "title": "Comments",
+     "id": "5ce79ccd-3247-f1f3-116a-042e9b68becd",
+     "type": "page",
+     "pageId": "1fb208b4-ee6a-4221-d300-f8d51ea4ea7b"
     },
     {
      "title": "Console Input",
@@ -216,41 +222,22 @@
      "type": "section",
      "children": [
       {
-       "title": "Learning Objectives",
-       "id": "74eb45d4-bf61-4060-b100-745c3ae734f7",
-       "type": "page",
-       "pageId": "e2330983-4a16-7d2b-ab31-124b33ba514a"
-      },
-      {
-       "title": "If Statement Syntax",
+       "title": "If Statement Pt. 1",
        "id": "c48ab2c8-e863-5054-9b21-824a424c3f3e",
        "type": "page",
        "pageId": "14964fdf-639e-4c68-0f11-3e193d5372ca"
       },
       {
-       "title": "If Statement",
+       "title": "If Statement Pt. 2",
        "id": "9fbddd63-eb7f-bee0-b63e-65af770a7634",
        "type": "page",
        "pageId": "fbf5d9f3-01a0-97b9-c43d-db2d9699131e"
-      }
-     ]
-    },
-    {
-     "title": "Formative Assessment - If Statement",
-     "id": "55e9041d-1c7a-e7e7-7a1e-ae9737d522e2",
-     "type": "section",
-     "children": [
-      {
-       "title": "Formative Assessment 1",
-       "id": "5dc13ab5-814c-9588-56bc-af3974fc6e87",
-       "type": "page",
-       "pageId": "1ca93841-2c7f-8f37-a6c3-f59aef7bf7c3"
       },
       {
-       "title": "Formative Assessment 2",
-       "id": "b89a6a00-20a7-7f37-0e74-3ef849575c8f",
+       "title": "If Statement Practice",
+       "id": "ca3dd2b4-2d87-d7fd-671f-c13fa969f90e",
        "type": "page",
-       "pageId": "de4c8125-7011-ad37-43dd-1415cf3feaa3"
+       "pageId": "c46991b6-6f0f-901f-a67f-eae8eeb71f20"
       }
      ]
     },
@@ -260,35 +247,16 @@
      "type": "section",
      "children": [
       {
-       "title": "Learning Objectives - If Else Statement",
-       "id": "d4de0489-a168-4102-a658-af22e2883664",
-       "type": "page",
-       "pageId": "25a11b25-e16d-8036-be19-a1228b514c18"
-      },
-      {
-       "title": "If Else Statement Syntax",
+       "title": "If Else Statement",
        "id": "10ef3361-5f0b-7978-7424-75f4840ef85b",
        "type": "page",
        "pageId": "3c2acdb7-eb3b-a5ea-7eff-c48483348712"
       },
       {
-       "title": "If Else Statement",
+       "title": "If Else Statement Practice",
        "id": "96368e37-6b49-1c12-9904-1cab25313bc8",
        "type": "page",
        "pageId": "4f2b8a1c-bc03-ccdf-e97b-93e50ade114c"
-      }
-     ]
-    },
-    {
-     "title": "Formative Assessment - If Else Statement",
-     "id": "89359068-88d7-afea-3640-721a1ccafcce",
-     "type": "section",
-     "children": [
-      {
-       "title": "Formative Assessment 1",
-       "id": "ce5e23e6-dba8-9fde-9c5b-a50b7293e3c1",
-       "type": "page",
-       "pageId": "c1688b3d-bb7f-2f17-e207-d6a5e8a377b7"
       }
      ]
     },
@@ -298,19 +266,19 @@
      "type": "section",
      "children": [
       {
-       "title": "Learning Objectives - Compound Conditionals",
-       "id": "23fe55dc-02ca-fc7c-5980-b694cd5843fd",
-       "type": "page",
-       "pageId": "75d88b63-ea3b-633d-0a5f-1395bf6b8219"
-      },
-      {
-       "title": "Compound Conditional Syntax",
+       "title": "Compound Conditional Pt. 1",
        "id": "747ad0ea-3c3f-90b2-0728-4f2318ba6953",
        "type": "page",
        "pageId": "765f2959-e3e1-20ed-5beb-e21f0ef4de3b"
       },
       {
-       "title": "Compound Conditional Statements",
+       "title": "Compound Conditional Pt. 2",
+       "id": "b52cf157-4590-0753-9e75-8cc47c249dc3",
+       "type": "page",
+       "pageId": "fa48722c-36de-1cea-8013-5b7dbd73d1d6"
+      },
+      {
+       "title": "Compound Conditional Practice",
        "id": "c3b80f70-e856-bfd5-494f-7a43f20ab32d",
        "type": "page",
        "pageId": "403ea237-8220-c1df-7740-f40b47e6d9bc"
@@ -318,82 +286,37 @@
      ]
     },
     {
-     "title": "Formative Assessment - Compound Conditionals",
-     "id": "4a905373-1919-cb98-ce51-a23a3ecd9f30",
-     "type": "section",
-     "children": [
-      {
-       "title": "Formative Assessment 1",
-       "id": "75410122-a380-7dd3-0bcb-25a98e1571c3",
-       "type": "page",
-       "pageId": "dc07005d-ddee-d6ae-682d-ff3d46afa481"
-      },
-      {
-       "title": "Formative Assessment 2",
-       "id": "cb2e79e4-6756-9880-ca9a-b43704e35254",
-       "type": "page",
-       "pageId": "4952e718-26f5-79a0-fb19-0e89029d042a"
-      }
-     ]
-    },
-    {
      "title": "If Elif Else Statement",
      "id": "40f8d753-add9-10a0-32ad-f6a7e502dc35",
      "type": "section",
-     "pageId": "b9af36db-5bf8-8ac0-7cfd-435e81c2be00",
      "children": [
       {
-       "title": "Learning Objectives - Elif Statement",
-       "id": "566b1da1-644f-7804-99e7-69b1714f595f",
-       "type": "page",
-       "pageId": "599ce21e-682e-bff4-1228-92d97e8f1c8f"
-      },
-      {
-       "title": "Elif Statement Syntax",
+       "title": "Elif Statement",
        "id": "7c9b011e-520c-0098-b31e-8d4b81046d30",
        "type": "page",
        "pageId": "21dd521b-10fe-2dd2-e6d6-8c1838e1448b"
-      },
-      {
-       "title": "Elif Statement",
-       "id": "2346cee8-f990-4185-c5bc-21f003baae15",
-       "type": "page",
-       "pageId": "975bca8d-9c61-0509-8fee-60da762f0cae"
       },
       {
        "title": "Efficiency of Elif",
        "id": "02bc11bc-2a5c-59a2-bb83-17e740ec73bc",
        "type": "page",
        "pageId": "6ca13098-b76c-e819-657e-f2863b764225"
-      }
-     ]
-    },
-    {
-     "title": "Formative Assessment - If Elif Else Statement",
-     "id": "e8b137e4-b0c0-c4aa-95b9-fc61685c4bc6",
-     "type": "section",
-     "children": [
-      {
-       "title": "Formative Assessment 1",
-       "id": "220fa016-0ffb-6a34-3f08-2c24ab3157c9",
-       "type": "page",
-       "pageId": "013454d6-6ae3-d91e-8c2e-95d2d26946a8"
       },
       {
-       "title": "Formative Assessment 2",
-       "id": "dbfc2739-ce00-c5d0-6990-54b3d3e4fc22",
+       "title": "Elif Statement Practice",
+       "id": "2346cee8-f990-4185-c5bc-21f003baae15",
        "type": "page",
-       "pageId": "55786f33-55bd-8d18-d387-d10b08616ee3"
+       "pageId": "975bca8d-9c61-0509-8fee-60da762f0cae"
       }
      ]
     },
     {
-     "title": "Lab - Conditionals",
+     "title": "Review Questions",
      "id": "8c21c8da-4838-f038-b6bc-6ae3f2a1d906",
      "type": "section",
      "children": [
       {
-       "title": "Lab - If Statement",
+       "title": "Review Question 1",
        "id": "8fa9f6d7-d559-779a-e884-86e149dbee4d",
        "type": "page",
        "pageId": "c9f50f42-4e9a-d695-fd5e-b74e1e98933c"
@@ -744,22 +667,22 @@
      "type": "section",
      "children": [
       {
-       "id": "b83f8803-a799-36e7-e428-cc5fe73b53ab",
        "title": "Q3 Stand in Order",
-       "pageId": "ca6ec0b8-568b-756b-c1f3-5e3ca42e99ad",
-       "type": "page"
+       "id": "b83f8803-a799-36e7-e428-cc5fe73b53ab",
+       "type": "page",
+       "pageId": "ca6ec0b8-568b-756b-c1f3-5e3ca42e99ad"
       },
       {
-       "id": "b4710c63-61a1-6a6c-ed32-f18682fb8f79",
        "title": "Python - Greatest Common Divisor",
-       "pageId": "03b483d5-a787-e516-58b4-f3de011dec83",
-       "type": "page"
+       "id": "b4710c63-61a1-6a6c-ed32-f18682fb8f79",
+       "type": "page",
+       "pageId": "03b483d5-a787-e516-58b4-f3de011dec83"
       },
       {
-       "id": "f7ff278b-8c58-4258-b52d-8b636327633c",
        "title": "Q3 Pop This, Not That",
-       "pageId": "48432b76-9df6-8228-f3cc-b42e12f7fd53",
-       "type": "page"
+       "id": "f7ff278b-8c58-4258-b52d-8b636327633c",
+       "type": "page",
+       "pageId": "48432b76-9df6-8228-f3cc-b42e12f7fd53"
       }
      ]
     },

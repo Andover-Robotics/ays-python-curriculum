@@ -174,17 +174,30 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "code/fundamentals/variables_diy.py",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Variables-7243.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "eb29389c-25de-0c35-9bad-22538316aa20",
+   "title": "Variable Names Review",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Variable-Names-Review-eb29.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -234,7 +247,12 @@
   {
    "id": "777836f0-a32f-e428-c9ab-1d6cc206cfa7",
    "title": "Numbers - Other Operators",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
@@ -358,12 +376,18 @@
    "learningObjectives": ""
   },
   {
-   "id": "fcd21757-70e4-930d-419c-ef82e3c9a1e3",
-   "title": "Variables - Review (Part 6)",
-   "files": [],
+   "id": "1fb208b4-ee6a-4221-d300-f8d51ea4ea7b",
+   "title": "Comments",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Variables---Review--Part-6--fcd2.md",
+   "content-file": ".guides/content/Comments-1fb2.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -498,27 +522,15 @@
    "learningObjectives": ""
   },
   {
-   "id": "e2330983-4a16-7d2b-ab31-124b33ba514a",
-   "title": "Learning Objectives",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives-e233.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
    "id": "14964fdf-639e-4c68-0f11-3e193d5372ca",
-   "title": "If Statement Syntax",
+   "title": "If Statement Pt. 1",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "code/selection/if-statement-syntax.py",
+     "path": "code/selection/if-statement-pt1.py",
      "panel": 0,
      "action": "open"
     }
@@ -526,7 +538,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/If-Statement-Syntax-1496.md",
+   "content-file": ".guides/content/If-Statement-Pt--1-1496.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -534,14 +546,14 @@
   },
   {
    "id": "fbf5d9f3-01a0-97b9-c43d-db2d9699131e",
-   "title": "If Statement",
+   "title": "If Statement Pt. 2",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "code/selection/if-statement.py",
+     "path": "code/selection/if-statement-pt2.py",
      "panel": 0,
      "action": "open"
     }
@@ -549,55 +561,26 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/If-Statement-fbf5.md",
+   "content-file": ".guides/content/If-Statement-Pt--2-fbf5.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
   },
   {
-   "id": "1ca93841-2c7f-8f37-a6c3-f59aef7bf7c3",
-   "title": "Formative Assessment 1",
+   "id": "c46991b6-6f0f-901f-a67f-eae8eeb71f20",
+   "title": "If Statement Practice",
    "files": [
     {
-     "path": "#tabs",
-     "action": "close"
+     "path": "code/selection/if-statement-practice.py",
+     "panel": 0,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-1ca9.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "de4c8125-7011-ad37-43dd-1415cf3feaa3",
-   "title": "Formative Assessment 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-de4c.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "25a11b25-e16d-8036-be19-a1228b514c18",
-   "title": "Learning Objectives - If Else Statement",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives---If-Else-Statement-25a1.md",
+   "content-file": ".guides/content/If-Statement-Practice-c469.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -605,29 +588,6 @@
   },
   {
    "id": "3c2acdb7-eb3b-a5ea-7eff-c48483348712",
-   "title": "If Else Statement Syntax",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/selection/if-else-statement-syntax.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/If-Else-Statement-Syntax-3c2a.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "4f2b8a1c-bc03-ccdf-e97b-93e50ade114c",
    "title": "If Else Statement",
    "files": [
     {
@@ -643,37 +603,30 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/If-Else-Statement-4f2b.md",
+   "content-file": ".guides/content/If-Else-Statement-3c2a.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
   },
   {
-   "id": "c1688b3d-bb7f-2f17-e207-d6a5e8a377b7",
-   "title": "Formative Assessment 1",
+   "id": "4f2b8a1c-bc03-ccdf-e97b-93e50ade114c",
+   "title": "If Else Statement Practice",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/selection/if-else-statement-practice.py",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-c168.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "75d88b63-ea3b-633d-0a5f-1395bf6b8219",
-   "title": "Learning Objectives - Compound Conditionals",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives---Compound-Conditionals-75d8.md",
+   "content-file": ".guides/content/If-Else-Statement-Practice-4f2b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -681,7 +634,7 @@
   },
   {
    "id": "765f2959-e3e1-20ed-5beb-e21f0ef4de3b",
-   "title": "Compound Conditional Syntax",
+   "title": "Compound Conditional Pt. 1",
    "files": [
     {
      "path": "#tabs",
@@ -696,7 +649,19 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Compound-Conditional-Syntax-765f.md",
+   "content-file": ".guides/content/Compound-Conditional-Pt--1-765f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fa48722c-36de-1cea-8013-5b7dbd73d1d6",
+   "title": "Compound Conditional Pt. 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Compound-Conditional-Pt--2-fa48.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -704,14 +669,14 @@
   },
   {
    "id": "403ea237-8220-c1df-7740-f40b47e6d9bc",
-   "title": "Compound Conditional Statements",
+   "title": "Compound Conditional Practice",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "code/selection/compound-conditionals.py",
+     "path": "code/selection/compound-conditionals-practice.py",
      "panel": 0,
      "action": "open"
     }
@@ -719,67 +684,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Compound-Conditional-Statements-403e.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "dc07005d-ddee-d6ae-682d-ff3d46afa481",
-   "title": "Formative Assessment 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-dc07.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "4952e718-26f5-79a0-fb19-0e89029d042a",
-   "title": "Formative Assessment 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-4952.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "b9af36db-5bf8-8ac0-7cfd-435e81c2be00",
-   "title": "If Elif Else Statement",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/If-Elif-Else-Statement-b9af.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "599ce21e-682e-bff4-1228-92d97e8f1c8f",
-   "title": "Learning Objectives - Elif Statement",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives---Elif-Statement-599c.md",
+   "content-file": ".guides/content/Compound-Conditional-Practice-403e.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -787,7 +692,7 @@
   },
   {
    "id": "21dd521b-10fe-2dd2-e6d6-8c1838e1448b",
-   "title": "Elif Statement Syntax",
+   "title": "Elif Statement",
    "files": [
     {
      "path": "#tabs",
@@ -802,30 +707,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Elif-Statement-Syntax-21dd.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "975bca8d-9c61-0509-8fee-60da762f0cae",
-   "title": "Elif Statement",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/selection/elif-statement.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Elif-Statement-975b.md",
+   "content-file": ".guides/content/Elif-Statement-21dd.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -855,8 +737,31 @@
    "learningObjectives": ""
   },
   {
-   "id": "013454d6-6ae3-d91e-8c2e-95d2d26946a8",
-   "title": "Formative Assessment 1",
+   "id": "975bca8d-9c61-0509-8fee-60da762f0cae",
+   "title": "Elif Statement Practice",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/selection/elif-statement.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Elif-Statement-Practice-975b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "c9f50f42-4e9a-d695-fd5e-b74e1e98933c",
+   "title": "Review Question 1",
    "files": [
     {
      "path": "#tabs",
@@ -866,42 +771,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-0134.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "55786f33-55bd-8d18-d387-d10b08616ee3",
-   "title": "Formative Assessment 2",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-5578.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "c9f50f42-4e9a-d695-fd5e-b74e1e98933c",
-   "title": "Lab - If Statement",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/selection/lab1.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Lab---If-Statement-c9f5.md",
+   "content-file": ".guides/content/Review-Question-1-c9f5.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

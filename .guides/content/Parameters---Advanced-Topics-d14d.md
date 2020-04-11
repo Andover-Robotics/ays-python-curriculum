@@ -23,11 +23,14 @@ add_if_true(5, 7, False)
 ## Your Turn!
 - Write a function that takes in a student's name and age as well as an optional parameter of their pet's name, and then prints them out. If the pet's name is not included in the call, print out "No Pet" Try different calls to your function and see if it works as desired!
 
+<!---add solution in here-->
+
 |||
 
 {try it}(python3 code/functions/advanced-parameters.py 2)
 
 ## Variable Parameter Lists
+<!---too complex-->
 
 It is possible to declare a function with a list of variables of an undetermined length. The function below will find the sum for any number passed as a parameter. There can be two parameters or twenty, but it is not necessary to write out each parameter. Instead, you can create a list of parameters that has unknown length. Use a `*` before the name you want to assign the list of parameters. 
 

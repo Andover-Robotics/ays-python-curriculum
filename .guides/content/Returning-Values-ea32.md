@@ -11,7 +11,7 @@ Example of a function that uses return:
 ```python
 def add_five(num):
     """Add five to the parameter num"""
-    return(num + 5)
+    return num + 5
   
 add_five(10)
 ```
@@ -23,7 +23,7 @@ The program no longer prints anything to the screen. That is because the functio
 ```python
 def add_five(num):
     """Add five to the parameter num and RETURN the function"""
-    return(num + 5)
+    return num + 5 
   
 new_number = add_five(10)
 print(new_number)

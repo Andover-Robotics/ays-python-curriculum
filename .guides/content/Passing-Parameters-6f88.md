@@ -42,8 +42,8 @@ add_sub(5, 10, 15)
 |||challenge
 ## Your Turn!
 - What if you wanted to add 5 and 15 and subtract 10? What would you have to change in your function call?
-
+{try it}(python3 code/functions/parameters.py 4)
 |||
 
-{try it}(python3 code/functions/parameters.py 4)
+
 

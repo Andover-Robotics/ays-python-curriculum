@@ -1,39 +1,28 @@
-## `len()`
-`len()` gives the length of the string inside its parentheses (the number of characters in the string, including whitespace of any kind).
+## `'` or `"`?
+In Python, you can write a string using both single quotes (`'`) and double quotes ('"'), but you cannot mix and match. Thus, in the following code:
 
 ```python
-print(len('This message has 30 characters'))
+print("Hello World")
+print('Hello World')
 ```
 
-{Try It}(python3 code/fundamentals/string_methods_demo_1.py)
+both are these lines are valid and would function exactly the same. The line `print('Hello World")`, however, is not valid.
 
-## `upper()`
-`upper()` capitalizes *every letter* in a string. 
+## What if I need an apostrophe?
 
-```python
-print('This Is My Message'.upper())
-```
+If you are using double quotes, you don't have to do anything! Single quotes will not be interpreted as the end of the string in a double-quote-enclosed string. Thus, the line `print("It's a miracle!")` is perfectly valid.
 
-{Try It}(python3 code/fundamentals/string_methods_demo_2.py)
+If you are using single quotes, your apostrophe would be interpreted as the end of the string and your code would not function properly (a syntax error would likely be thrown). Thus, the line `print('It's a miracle!')` would not be valid, as the interpreter would see two strings: `'It'` and an unclosed string, `')`. This would result in a syntax error and your code would not run. To fix this, you must **escape the character** by placing a `\` before the `'`. Thus, `print('It\'s a miracle')` is perfectly valid and would output `It's a miracle!`. This is because the preceding `\` tells the interpreter that the following `'` is not a part of your code, but is a part of the string itself. 
+
+## What if I need a quote?
+
+The opposite of the apostrophe case occurs: 
+
+If you are using single quotes, you don't have to do anything! Thus, the line `print('He had me at "Hello World"')` is perfectly valid.
+
+If you are using double quotes, you would have to **escape the character** for the same reason that you must escape the apostrophe in a single-quote-enclosed string. The `"` is escaped in the same way as the `'`, by adding a preceding `\`. Thus, the line `print("He had me at "Hello World"")` is invalid, but the line `print("He had me at \"Hello World\"")` works properly and outputs `He had me at "Hello World"`.
 
 
-## `lower()`
-`upper()` makes *every letter* in a string lowercase. 
+## So which should you use?
 
-```python
-print('This Is My Message'.lower())
-```
-
-{Try It}(python3 code/fundamentals/string_methods_demo_3.py)
-
-## `capitalize()`
-`capitalize()` capitalizes the *first letter* of the string and makes every other letter lowercase.
-
-```python
-print('This Is My Message'.capitalize())
-```
-
-{Try It}(python3 code/fundamentals/string_methods_demo_4.py)
-
-## An Important Note
-`len()` and `print()` both encompass the strings they affect, but `upper()`, `lower()`, and `capitalize()` come after the string and a `.` character. There may *not* be a space between the end of the string and the `.`, or between the `.` and `upper()`, `lower()`, or `capitalize()`. Although the reasonsing for this is beyond the scope of our knowledge at this point, it is crucial that you keep this in mind.
+It all comes down to personal preference, but it is recommended that you **stay consistent** throughout your Python code. Although it is not technically incorrect, switching between single-quote-enclosed strings and double-quote-enclosed strings can make things confusing for you and your collaborators.

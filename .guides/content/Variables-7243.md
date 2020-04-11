@@ -2,7 +2,7 @@
 Consider the following code:
 
 ```python
-print('Hello '.upper() + 'World! '.lower() + 'I am learning Python!'.capitalize())
+print('Hello ' + 'World! ' + 'I am learning Python!')
 ```
 
 {Try It}(python3 code/fundamentals/variables_demo_1.py)
@@ -34,39 +34,16 @@ print('my_variable')
 
 These are very different results. Why? When the `'`s are added, `'my_variable'` is interpreted as a string, not as the variable `my_variable`. 
 
-The same methods we applied to strings (`len()`, `upper()`, `lower()`, `capitalize()`) can be applied to variables that **contain strings**, in the same format. For example, all of the following is valid:
+The properties of strings are applied to any variable that **contains strings**.
 
 ```python
 my_variable = 'Hello World'
-print(len(my_variable))
-print(my_variable.upper())
-print(my_variable.lower())
-print(my_variable.capitalize())
+print(my_variable)
+print(my_variable + ' I am learning Python!')
+print(my_variable * 2)
 ```
 
 {Try It}(python3 code/fundamentals/variables_demo_4.py)
-
-
-## Challenge: Revisiting the First Example
-Remember this code from the beginning of the page?
-
-```python
-print('Hello '.upper() + 'World! '.lower() + 'I am learning Python!'.capitalize())
-```
-{Try It}(python3 code/fundamentals/variables_demo_1.py)
-
-Can you achieve the same result using a separate variable for each string? Write your code on the left and use the button below to test your code. Remember that **no two variables can share the same name** - assigning a different value to a variable that has already been declared will simply overwrite the previous value of the variable.
-
-{Try It}(python3 code/fundamentals/variables_diy.py)
-
-<details><summary>Need help?</summary>Here is a possible solution:
-<code class="language-python"><!-- react-text: 117 -->my_variable = <!-- /react-text --><span class="hljs-string">'Hello World'</span><!-- react-text: 119 -->
-print(len(my_variable))
-print(my_variable.upper())
-print(my_variable.lower())
-print(my_variable.capitalize())
-<!-- /react-text --></code>
-</details>
 
 ## Variable Naming Rules
 Here are the rules for declaring a variable.

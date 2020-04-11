@@ -1,6 +1,9 @@
 ----------
+## Elif Statement
 
-## Elif Syntax
+The if statement asks a single question, "Is this true?". The if else statement asks two questions, "Is this true, or is this false?". The **elif statement**, short for "else if," is used after an if statement and before an else statement. Elif statements give you more precision when making decisions.
+
+## Syntax
 
 The elif statement is written similarly to the if statement. There are few differences as well. Here are the rules for writing an elif statement:
 
@@ -43,4 +46,18 @@ else:
 
 {Check It!|assessment}(multiple-choice-1573332278)
 
+----
 
+The picture below shows how the elif statement can be more precise than just an if or an if else statement
+
+![elif Statement](.guides/images/if-vs-else-vs-elif.png)
+
+|||challenge
+## Can you...
+Copy the code from above, but add the letter grade D which is any grade from 60 to 69?
+
+**Testing Your Code**
+Change `grade` to `65`. You should see `You got a D.` as the output of your program.
+<details><summary>**Hint**</summary>You need to change the if statement and add another elif statement.</details>
+
+|||
