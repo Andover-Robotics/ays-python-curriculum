@@ -16,6 +16,6 @@ Were you right?
 ## Try it Yourself
 Use the file on the left to experiment with string concatenation. What happens if you reverse the order of the strings? What happens if there are more than 2 strings? Play around and use the button below to see the output.
 
-{Try My Code}(python3 code/fundamentals/string_concatenation.py)
+**Challenge**: Can you print out your name in the format `Last, First` by adding **three strings**?
 
-Once you feel you have a solid understanding of string concatenation, move on to the next page.
+{Try My Code}(python3 code/fundamentals/string_concatenation.py)

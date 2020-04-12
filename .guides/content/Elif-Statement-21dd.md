@@ -39,10 +39,10 @@ else:
 * Change `a` to `100`?
 * Change `a` to `30`? (How can you fix this?)
 
-|||
-
 [Code Visualizer](open_tutor code/selection/elif-syntax.py)
 {try it}(python3 code/selection/elif-syntax.py 2)
+
+|||
 
 {Check It!|assessment}(multiple-choice-1573332278)
 
@@ -58,6 +58,10 @@ Copy the code from above, but add the letter grade D which is any grade from 60 
 
 **Testing Your Code**
 Change `grade` to `65`. You should see `You got a D.` as the output of your program.
+
 <details><summary>**Hint**</summary>You need to change the if statement and add another elif statement.</details>
+
+[Code Visualizer](open_tutor code/selection/elif-syntax.py)
+{try it}(python3 code/selection/elif-syntax.py 3)
 
 |||

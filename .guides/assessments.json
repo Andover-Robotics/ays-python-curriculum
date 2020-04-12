@@ -669,7 +669,7 @@
     {
      "_id": "25e0febb-abe7-7958-8b77-77e694128374",
      "correct": true,
-     "answer": "Sends your output to the console"
+     "answer": "Sends your output to the screen"
     },
     {
      "_id": "5010b36f-4055-fdc4-8681-3d0f640b737a",
@@ -2359,22 +2359,22 @@
     {
      "_id": "a7db6a03-c448-8858-cea1-09b6bc38a703",
      "correct": false,
-     "answer": "Allows specific code to run only when the boolean expression is true."
+     "answer": "If statements allow specific code to run only when the boolean expression is true."
     },
     {
      "_id": "8d0b5862-4883-7f40-a39a-99e671924520",
      "correct": true,
-     "answer": "Runs only if the given condition is false."
+     "answer": "If statements only run if the given condition is false."
     },
     {
      "_id": "c6de5aa5-0f84-2082-8027-1d8c90cccca5",
      "correct": false,
-     "answer": "Allows your program to make decisions about what to do."
+     "answer": "If statements allow your program to make decisions about what to do."
     },
     {
      "_id": "cb24b48a-44c1-3662-5bb4-26aaf018b894",
      "correct": false,
-     "answer": "Checks to see if a certain condition is true."
+     "answer": "If statements check to see if a certain condition is true."
     }
    ],
    "guidance": "An if statement will only run if its conditions are **true**.",
@@ -2390,13 +2390,20 @@
      }
     ],
     "files": [
+     "code/selection/if-statement-pt2.py",
+     "code/selection/if-statement-practice.py",
      "code/selection/if-statement.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/selection/if-statement.py"
+      "content": "code/selection/if-statement-pt2.py"
+     },
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/if-statement-practice.py"
      }
     ]
    },
@@ -2411,7 +2418,7 @@
    "name": "if statement question 4",
    "showName": false,
    "instructions": "## Question 4\nComplete the if statement below so that it will determine if the variable `num` is greater than 100.",
-   "text": "<<<if>>> num > 100<<<:>>>\n        print(\"num is greater than 100\")",
+   "text": "```python\n<<<if>>> num > 100<<<:>>>\n    print(\"num is greater than 100\")\n```",
    "guidance": "The boolean expression is already provided. To complete the if statement, the keyword `if` should be used in the first blank, and a `:` should be used in the second.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -2425,13 +2432,20 @@
      }
     ],
     "files": [
+     "code/selection/if-statement-pt2.py",
+     "code/selection/if-statement-practice.py",
      "code/selection/if-statement.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/selection/if-statement.py"
+      "content": "code/selection/if-statement-pt2.py"
+     },
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/if-statement-practice.py"
      }
     ]
    },
@@ -2443,10 +2457,11 @@
      ":"
     ],
     "text": [
+     "```python\n",
      0,
      " num > 100",
      0,
-     "\n        print(\"num is greater than 100\")"
+     "\n    print(\"num is greater than 100\")\n```"
     ]
    }
   }

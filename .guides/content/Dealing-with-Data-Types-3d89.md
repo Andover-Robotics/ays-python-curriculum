@@ -63,4 +63,9 @@ Now, try it yourself. Play around in the editor on the left and use the followin
 
 {Try It | terminal}(python3 code/fundamentals/input_diy_2.py ; read -n 1 -s -r -p "Press any key to exit" ; exit)
 
-Try to use all the new material from this page. Once you have a solid understanding of it, you may move on.
+Try to use all the new material from this page.
+
+**Challenges**:
+* Take in two numbers and output their product
+* Take in two strings and output them in the opposite order
+* Take in a string `s` and a number `num`. Output `s` `num` times (in one line). Can you separate each copy of `s` with a space (Hint: The concatenation of a space may be required)

@@ -1,5 +1,5 @@
 ## `'` or `"`?
-In Python, you can write a string using both single quotes (`'`) and double quotes ('"'), but you cannot mix and match. Thus, in the following code:
+In Python, you can write a string using both single quotes (`'`) and double quotes (`"`), but you cannot mix and match. Thus, in the following code:
 
 ```python
 print("Hello World")

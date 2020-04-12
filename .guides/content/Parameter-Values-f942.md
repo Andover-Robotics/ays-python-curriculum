@@ -1,5 +1,11 @@
 ----------
 
+|||guidance
+
+Time estimation: 3 minutes
+
+|||
+
 ## Named Parameters
 
 Typically, parameter values are assigned based on their position in the function call. However, Python allows you to specify which parameter is which if you want them in a different order. This technique also helps readability if you are dealing with complex functions that take in lots of hard-to-remember parameters.

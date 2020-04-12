@@ -1,4 +1,16 @@
 ----------
+## Boolean Operators
+When you write an if statement, you will usually use it to compare the values of two different variables. These variables can be compared using **boolean operators**. Below is a list of some very useful boolean operators:
+
+* `==`: is equal to (not to be confused with `=`, which is used to assign variables)
+* `!=`: is **not** equal to (the `!` means not)
+* `<`: less than
+* `<=`: greater than or equal to
+* `>`: greater than
+* `>=`: greater than or equal to
+
+Some of these symbols may seem familiar to you from math class. These boolean operators are the same for pretty much every programming language, which is nice.
+
 ## Testing Multiple Cases
 
 You will find yourself needing to test the same variable multiple times. Be sure that you set up your conditionals to test **all** possible values of the variable.

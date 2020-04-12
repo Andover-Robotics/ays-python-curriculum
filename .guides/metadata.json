@@ -292,14 +292,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "code/fundamentals/data_type_diy.py",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Data-Types-a7b8.md",
@@ -584,6 +579,10 @@
    "title": "If Statement Practice",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "code/selection/if-statement-practice.py",
      "panel": 0,
      "action": "open"
@@ -601,7 +600,13 @@
   {
    "id": "f032401c-a71e-8b21-e7d4-6e195e5be50c",
    "title": "Learning Objectives - Else Statement",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives---Else-Statement-f032.md",
@@ -659,7 +664,13 @@
   {
    "id": "ae31b74e-8c15-656c-fcc6-e449e99edfed",
    "title": "Learning Objectives - Compound Conditions",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives---Compound-Conditions-ae31.md",
@@ -692,18 +703,6 @@
    "learningObjectives": ""
   },
   {
-   "id": "fa48722c-36de-1cea-8013-5b7dbd73d1d6",
-   "title": "Compound Conditional Pt. 2",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Compound-Conditional-Pt--2-fa48.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
    "id": "403ea237-8220-c1df-7740-f40b47e6d9bc",
    "title": "Compound Conditional Practice",
    "files": [
@@ -729,7 +728,13 @@
   {
    "id": "14add17c-fdfe-91d8-7a06-d6f5ea805aed",
    "title": "Learning Objectives - Elif Statement",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives---Elif-Statement-14ad.md",
@@ -884,7 +889,11 @@
    "title": "Lab - Rock Paper Scissors",
    "files": [
     {
-     "path": "rps.py",
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/selection/rps.py",
      "panel": 0,
      "action": "open"
     }
