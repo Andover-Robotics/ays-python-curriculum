@@ -46,7 +46,7 @@ What happens when I have a list of 4 elements and try to access the 5th? Try it.
 |||
 
 |||info
-What you might have just seen was a **runtime error**. In Python, we can raise runtime errors (with `raise`) to indicate that something has gone wrong. As you might find out later, we can also specify how to handle specific errors when they are raised.
+What you might have just seen was a **runtime error**. Runtime errors indicate that something has gone wrong while the program is running. As you might find out later, we can also specify how to handle specific errors when they are raised.
 |||
 
 #### Negative Indexes

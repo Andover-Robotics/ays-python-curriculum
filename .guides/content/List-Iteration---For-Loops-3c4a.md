@@ -96,7 +96,7 @@ You should be able to iterate through a list and modify each element as needed.
 |||challenge
 
 **Think:** Try the following tasks.
-* Collect the first letter from each favorite hobby into a string. For example, `["eat", "code", "sleep"]` would result in `"ecs"`.
+* Collect the first letter from each favorite hobby into a string. For example, `["eat", "code", "sleep"]` would result in `"ecs"`.<details><summary><b>Indexing strings</b></summary>_When indexing, you can treat a string like a list of characters. For a string named `s`, `s[0]` refers to the first character._</details>
 * Determine the length of your list of favorite hobbies without using `len`.
 * Implement the "filter" pattern: populate another list with all favorite hobbies that are shorter than 5 letters.
 * Implement the "map" pattern in place: change each favorite hobby to be uppercase and end in an exclamation mark. Check your work with `print`.
