@@ -1,6 +1,6 @@
 ----------
 ## Boolean Operators
-When you write an if statement, you will usually use it to compare the values of two different variables. These variables can be compared using **boolean operators**. Below is a list of some very useful boolean operators:
+When you write an if statement, you will usually use it to compare the values of two different variables. These variables can be compared using **boolean operators**. As a quick review, a **boolean** can only take on two values: yes (`True`) or no (`False`). Below is a list of some very useful boolean operators:
 
 * `==`: is equal to (not to be confused with `=`, which is used to assign variables)
 * `!=`: is **not** equal to (the `!` means not)
@@ -49,3 +49,4 @@ if grade < 70:
 
 |||
 
+{Check It!|assessment}(free-text-auto-1037488722)

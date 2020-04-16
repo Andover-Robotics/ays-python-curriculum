@@ -17,7 +17,7 @@ If statements in Python must contain the following items:
 * a colon
 * 4 spaces of indentation for all lines of code that will run if the boolean expression is true.
 
-What do you predict will print out from the code below? Copy the code into your code editor on the left and run it. You can use the code visualizer to see a step-by-step breakdown.
+What do you predict will print out from the code below? **Copy the code into your code editor on the left and run it.** You can use the code visualizer to see a step-by-step breakdown.
 
 ```python
 if True:
@@ -47,3 +47,7 @@ In many other programming languages, there are specific characters that tell the
 However, in Python, we do not have any set characters that tell the computer where to start and stop reading. Instead, it uses line breaks and indents, aka "whitespace" to do this. The indents in front of those two print statements tell the computer that they belong to the if statement, and will only run if the if statement is true.
 
 As for the four spaces, that's just what the Python community has agreed to be the size of an indent. Hitting the `tab` key on your keyboard will work as well.
+
+## Check your understanding
+
+{Check It!|assessment}(multiple-choice-2553315478)

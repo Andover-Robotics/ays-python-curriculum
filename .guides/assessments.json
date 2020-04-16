@@ -12690,5 +12690,215 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2553315478",
+  "source": {
+   "name": "Conditionals Check 1",
+   "showName": true,
+   "instructions": "What is printed as a result of executing the following code segment?\n\n```python\nif True:\n  print(\"A\")\n  print(\"C\")\nif False:\n  print(\"D\")\n  print(\"E\")\nprint(\"B\")\n```\n\nSelect all the letters that are printed.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "930afaff-b3c4-bcad-4008-c86b8591c16c",
+     "correct": true,
+     "answer": "A"
+    },
+    {
+     "_id": "33114f99-908f-49d7-8c97-83f1ab396209",
+     "correct": true,
+     "answer": "B"
+    },
+    {
+     "_id": "69a34060-be5a-0011-dc66-b2eee513391a",
+     "correct": true,
+     "answer": "C"
+    },
+    {
+     "_id": "21caf48a-6478-f491-0413-17261ff380b3",
+     "correct": false,
+     "answer": "D"
+    },
+    {
+     "_id": "4bfacbf4-0898-c886-be8a-e39effb9ec93",
+     "correct": false,
+     "answer": "E"
+    }
+   ],
+   "guidance": "Here's how the segment is executed:\n\n* `if True:`: Is `True` true? Yes, it is true. Execute the indented code block.\n  * `print(\"A\")`: output \"A\".\n  * `print(\"C\")`: output \"C\".\n* `if False:`: Is `False` true? No, it is not true. **Do not** execute the indented code block. Continue at the next un-indented statement.\n  * (\"D\" and \"E\" are skipped because `1 > 3` is not true.)\n* `print(\"B\")`: output \"B\". This is not part of the indented block with \"D\" and \"E\", so it is printed regardless of whether `1 > 3`.\n\nTherefore, only \"A\", \"B\", and \"C\" are printed.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/selection/if-statement-pt1.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/if-statement-pt1.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text-auto",
+  "taskId": "free-text-auto-1037488722",
+  "source": {
+   "name": "It's True...",
+   "showName": true,
+   "instructions": "Time to be a little creative. Enter an expression below that evaluates to `True` and uses a boolean operator covered above.",
+   "command": "python3 .guides/secure/conditionals/its_true.py",
+   "timeoutSeconds": 40,
+   "guidance": "<details><summary>What??</summary>\nSome examples that could work:\n\n* `0 == 0`: yes, zero is equal to zero. `True`.\n* `9 >= 9`: yes, nine is greater than or equal to nine. `True`.\n\nSome examples that won't work:\n\n* `8 < 2`: no, eight is not smaller than two. `False`.\n* `7 != 7`: no, seven is equal to seven. `False`.\n\n</details>",
+   "showGuidanceAfterResponse": true,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": false,
+   "previewType": "NONE",
+   "points": 2,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text Autograde"
+     }
+    ],
+    "files": [
+     "code/selection/if-statement-pt2.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/if-statement-pt2.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1301493467",
+  "source": {
+   "name": "Python - The Largest of Three",
+   "showName": true,
+   "instructions": "Write a program that, given 3 integers, will print out the largest integer given. If there is a tie, the program should just print out one of the largest numbers.\nYour solution should be created with only conditionals---no lists should be used.\nThe three numbers are passed in as `num1`, `num2`, and `num3`.",
+   "command": "python3 conditionals/Q17_Largest.py",
+   "preExecuteCommand": "python3 .guides/secure/conditionals/q17-check.py",
+   "guidance": "The following is a valid solution:\n```python\nif num1 > num2:\n    if num1 > num3:\n        print(num1)\n    else:\n        print(num3)\nelse:\n    if num2 > num3:\n        print(num2)\n    else:\n        print(num3)\n```\nWe first compare the first two numbers. If the first number is larger, we compare it to the third number. If the first number is still larger, we know the first one is the largest and therefore print it. If the third number is larger, we know the third one is the largest (because `num3 > num1 > num2`) and therefore print it.\n\nIf the second number happened to be larger than the first number, we would compare it with the third. If the second is also larger than the third, we know that the second is the largest one and therefore print it. Otherwise, we know that the third number is the largest one (because `num3 > num2 > num1`) and therefore print it.\n\n<details><summary>Another solution</summary>\n\nThis solution takes up some memory, but it performs fewer comparisons. See if you can describe the procedure in English.\n```python\nmax_number = num1\nif num2 > max_number:\n    max_number = num2\nif num3 > max_number:\n    max_number = num3\nprint(max_number)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "50 14 25",
+     "input": "",
+     "output": "50",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "72 84 64",
+     "input": "",
+     "output": "84",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "41 25 63",
+     "input": "",
+     "output": "63",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "44 44 24",
+     "input": "",
+     "output": "44",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "52 64 64",
+     "input": "",
+     "output": "64",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "25 14 25",
+     "input": "",
+     "output": "25",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "42 42 42",
+     "input": "",
+     "output": "42",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
+     },
+     {
+      "name": "Content",
+      "value": "If-Else Conditionals"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     }
+    ],
+    "files": [
+     "conditionals/Q17_Largest.py",
+     ".guides/secure/conditionals/q17-check.py",
+     ".guides/secure/conditionals/q17-try.py"
+    ],
+    "layout": "2-panels",
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "conditionals/Q17_Largest.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT use conditionals to determine the largest of three numbers"
+  },
+  "libraryId": "7f9c49e5-5dbb-48ea-8006-6944447abbe6",
+  "version": 0
  }
 ]
