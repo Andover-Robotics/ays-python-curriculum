@@ -2558,7 +2558,7 @@
   "source": {
    "name": "Formative assessment 1 if else statement",
    "showName": false,
-   "instructions": "## Question 3\nWhat is wrong with the code below? **Hint**, there is more than one right answer.(added for QA purposes ) (another try from macOS 10.14.16, Chrome 77)\n\n```python\nif 3 > 4\nprint(\"This is true\")\nelse\nprint(\"This is false\")\n```",
+   "instructions": "## Question 3\nWhat is wrong with the code below? **Hint**, there is more than one right answer.\n\n```python\nif 3 > 4\nprint(\"This is true\")\nelse\nprint(\"This is false\")\n```",
    "multipleResponse": true,
    "answers": [
     {
@@ -2595,13 +2595,14 @@
      }
     ],
     "files": [
+     "code/selection/if-else-statement-practice.py",
      "code/selection/if-else-statement.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/selection/if-else-statement.py"
+      "content": "code/selection/if-else-statement-practice.py"
      }
     ]
    },
@@ -3028,7 +3029,7 @@
   "source": {
    "name": "self-check compound conditionals",
    "showName": false,
-   "instructions": "## Self-Check Compound Conditionals\nSelect all of the compound conditionals that are correctly written. **Hint**, there is more than one right answer.",
+   "instructions": "Select all of the compound conditionals that are correctly written. **Hint**, there is more than one right answer.",
    "multipleResponse": true,
    "answers": [
     {
@@ -3058,12 +3059,19 @@
    "points": 1,
    "incorrectPoints": 0,
    "metadata": {
-    "tags": [],
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
     "files": [
      "code/selection/lab_challenge.py"
     ],
     "opened": []
-   }
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
@@ -3150,7 +3158,7 @@
   "source": {
    "name": "self check conditionals elif",
    "showName": false,
-   "instructions": "## Self-Check If Elif Else\nImagine that the variable `x` contains a number between 0 and 20. Rearrange the code blocks below to create  a program that see if `x` is between 0 and 5, 5 to 10, 10 to 15, or between 15 and 20.",
+   "instructions": "Imagine that the variable `x` contains a number between 0 and 20. Rearrange the code blocks below to create  a program that see if `x` is between 0 and 5, 5 to 10, 10 to 15, or between 15 and 20.",
    "initial": "if x <= 5:\n    print(\"x is between 0 and 5\")\nelif x <= 10:\n    print(\"x is between 5 and 10\")\nelif x <= 15:\n    print(\"x is between 10 and 15\")\nelse:\n    print(\"x is between 15 and 20\")",
    "options": "{\n  \"sortableId\": \"sortable\"\n}",
    "grader": "",
@@ -3159,10 +3167,17 @@
    "points": 1,
    "oneTimeTest": true,
    "metadata": {
-    "tags": [],
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
     "files": [],
     "opened": []
-   }
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
@@ -11832,7 +11847,7 @@
      "answer": "`\"It's my string'`"
     }
    ],
-   "guidance": "`len()` gives the length of the string, which would be a number.\n`.upper()` capitalizes every letter in the string, yielding the solution.\n`.lower()` makes every letter in the string lowercase, which is incorrect.\n`.capitalize()` capitalizes only the first letter of the string, which is incorrect.",
+   "guidance": "",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -12622,6 +12637,58 @@
      " 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")\n```"
     ]
    }
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3567963991",
+  "source": {
+   "name": "Input Challenge 1",
+   "showName": false,
+   "instructions": "",
+   "command": "python3 code/fundamentals/input_diy.py ; read -n 1 -s -r -p \"Press any key to exit\" ; exit",
+   "preExecuteCommand": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/input_diy.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 1,
+      "content": "code/fundamentals/input_diy.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  }
 ]

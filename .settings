@@ -1,4 +1,5 @@
 [editor]
+font_size = 18
 tab_size = 2
 ; enter your editor preferences here...
 visible_tabs = true
@@ -21,9 +22,11 @@ enable_lsp_support = true
 ; enter your git preferences here...
 
 [terminal]
+font_size = 18
 ; enter your terminal preferences here...
 
 [preview]
+index_file = README.md
 ; enter your preview preferences here...
 
 [search]
@@ -39,6 +42,7 @@ enable_lsp_support = true
 ; enter your codio-filetree preferences here...
 
 [guides]
+theme = light
 ; enter your guides preferences here...
 
 [settings]

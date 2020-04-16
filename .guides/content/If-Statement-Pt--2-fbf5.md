@@ -11,10 +11,20 @@ When you write an if statement, you will usually use it to compare the values of
 
 Some of these symbols may seem familiar to you from math class. These boolean operators are the same for pretty much every programming language, which is nice.
 
+|||challenge
+## Try it yourself:
+
+Write one true boolean expression and one false boolean expression. Then, print out their results.
+
+{try it}(python3 code/selection/if-statement-pt2.py 1)
+
+|||
+
 ## Testing Multiple Cases
 
 You will find yourself needing to test the same variable multiple times. Be sure that you set up your conditionals to test **all** possible values of the variable.
 
+Copy the following code into the code editor and run it:
 ```python
 grade = 90
 
@@ -26,7 +36,7 @@ if grade < 70:
 ```
 
 [Code Visualizer](open_tutor code/selection/if-statement-pt2.py)
-{try it}(python3 code/selection/if-statement-pt2.py 1)
+{try it}(python3 code/selection/if-statement-pt2.py 2)
 
 |||challenge
 ## What happens if you:
@@ -35,7 +45,7 @@ if grade < 70:
 * Change `grade > 70` to `grade >= 70`?
 
 [Code Visualizer](open_tutor code/selection/if-statement.py)
-{try it}(python3 code/selection/if-statement-pt2.py 2)
+{try it}(python3 code/selection/if-statement-pt2.py 3)
 
 |||
 

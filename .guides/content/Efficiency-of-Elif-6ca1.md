@@ -6,7 +6,7 @@ Take a look at the image below. It shows two programs that do the same thing, ca
 
 ![Elif Efficiency](.guides/images/efficiency-elif.png)
 
-All of the if statements will run, even when the letter grade has been determined. The elif statements will stop once one of them is true. Use the code visualizers below to see how Python steps through the two programs below.
+All of the if statements will run, even when the letter grade has been determined. The elif statements will stop once one of them is true. You can use the code visualizers below to see how Python steps through the two programs.
 
 ### Series of If Statements
 ```python

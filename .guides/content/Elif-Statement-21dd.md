@@ -1,7 +1,9 @@
 ----------
 ## Elif Statement
 
-The if statement asks a single question, "Is this true?". The if else statement asks two questions, "Is this true, or is this false?". The **elif statement**, short for "else if," is used after an if statement and before an else statement. Elif statements give you more precision when making decisions.
+What if you wanted to check for a situation that isn't just "this" or "that," but had multiple cases in between? That's where the elif statement comes in!
+
+The **elif statement**, short for "else if," is used after an if statement and before an else statement. Elif statements give you more precision when making decisions by allowing you to run different code during many different situations.
 
 ## Syntax
 
@@ -13,10 +15,9 @@ The elif statement is written similarly to the if statement. There are few diffe
 * You can write as many elif statements as you want
 * An else statement must come after the last elif statement
 
-<details><summary><b>What does `elif` mean?</b></summary>`elif` is an abbreviation of `else` and `if`. Since elif statements are common, the command was simplified so programmers would not have to write `else if`.</details>
-
 ![elif Statement](.guides/images/elif-statement.png)
 
+Try out the code below:
 ```python
 a = 20
 

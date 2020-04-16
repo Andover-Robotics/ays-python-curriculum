@@ -40,7 +40,6 @@ The properties of strings are applied to any variable that **contains strings**.
 my_variable = 'Hello World'
 print(my_variable)
 print(my_variable + ' I am learning Python!')
-print(my_variable * 2)
 ```
 
 {Try It}(python3 code/fundamentals/variables_demo_4.py)
@@ -55,5 +54,5 @@ Here are the rules for declaring a variable.
 |Cannot use a Python keyword|`my_class`|`class`|
 |Variables are case sensitive|`variable`, `Variable`, and `VARIABLE` are all different variables|
 
-<details><summary>What is a keyword?</summary>A keyword is a word that has been reserved by Python because it serves a purpose in the program's compilation and executio. Keywords are case sensitive and are used too define the syntax and structure of Python.</details>
+<details><summary>What is a keyword?</summary>A keyword is a word that has been reserved by Python because it serves a purpose in the program's compilation and execution. Keywords are case sensitive and are used too define the syntax and structure of Python.</details>
 <details><summary><b>What are the Python keywords?</b></summary><table><tr><th></th><th></th><th></th><th></th></tr><tr><td>False</td><td>class</td><td>finally</td><td>is</td></tr><tr><td>return</td><td>None</td><td>continue</td><td>for</td></tr><tr><td>lambda</td><td>try</td><td>True</td><td>def</td></tr><tr><td>from</td><td>nonlocal</td><td>while</td><td>and</td></tr><tr><td>del</td><td>global</td><td>nont</td><td>with</td></tr><tr><td>as</td><td>elif</td><td>if</td><td>or</td></tr><tr><td>yield</td><td>assert</td><td>else</td><td>import</td></tr><tr><td>pass</td><td>break</td><td>except</td><td>in</td></tr><tr><td>raise</td></tr></table></details>

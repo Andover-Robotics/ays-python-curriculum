@@ -4,7 +4,7 @@
 
 Conditionals are pieces of code that make a decision about what the program is going to do next. The most common conditional is the if statement.
 
-**If statements** test to see if a certain condition is true. If yes, then a specific commands are run. If not, it doesn't do anything.
+**If statements** test to see if a certain condition is true. If it is true, then a certain set of code will run. If it is false, then that code is skipped and the program continues with whatever code comes after.
 
 ## Syntax
 
@@ -17,7 +17,7 @@ If statements in Python must contain the following items:
 * a colon
 * 4 spaces of indentation for all lines of code that will run if the boolean expression is true.
 
-Try out the code below. Remember that you can use the code visualizer to see how the code works step by step.
+What do you predict will print out from the code below? Copy the code into your code editor on the left and run it. You can use the code visualizer to see a step-by-step breakdown.
 
 ```python
 if True:
@@ -40,10 +40,10 @@ print("This is not related to the if statement")
 
 ----
 ## The Whitespace
-You may have noticed in the diagram above that there is an indent of exactly four spaces in front of the first two print statements. If those indents were not there, the program would run differently. Why is this indent so important?
+You may have noticed in the diagram above that there is an indent of exactly four spaces in front of the first two print statements. If those indents were not there, the program would run totally differently. Why is that?
 
 In many other programming languages, there are specific characters that tell the computer where statements start and end. For example, in Java, you put a semicolon `;` at the end of each statement. Think of it as punctuation, but for code.
 
-However, in Python, we do not have any set characters that tell the computer where to start and stop reading. Instead, it uses line breaks and indents, AKA "whitespace" to do this. The indents in front of those two print statements tell the computer that they belong to the if statement, and will only run if the if statement is true.
+However, in Python, we do not have any set characters that tell the computer where to start and stop reading. Instead, it uses line breaks and indents, aka "whitespace" to do this. The indents in front of those two print statements tell the computer that they belong to the if statement, and will only run if the if statement is true.
 
 As for the four spaces, that's just what the Python community has agreed to be the size of an indent. Hitting the `tab` key on your keyboard will work as well.
