@@ -23,5 +23,5 @@ try:
 except Exception as e:
   print('😦 Something went wrong. Check your syntax: ' + str(e))
 
-print(f'<b style="color:blue">Your score: {score} / 2</b>')
+print(f'<b style="color:blue">Your score: {score} / 2<br>Keep trying!</b>')
 rep = requests.get("{0}&points={1}".format(os.environ['CODIO_PARTIAL_POINTS_URL'], score))
