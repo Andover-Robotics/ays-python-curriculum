@@ -529,6 +529,29 @@
    "learningObjectives": ""
   },
   {
+   "id": "4981a4b9-dbb7-87c6-2728-1b1a448be61c",
+   "title": "Booleans",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/booleans.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Booleans-4981.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "14964fdf-639e-4c68-0f11-3e193d5372ca",
    "title": "If Statement Pt. 1",
    "files": [

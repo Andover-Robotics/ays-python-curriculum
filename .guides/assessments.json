@@ -12900,5 +12900,64 @@
   },
   "libraryId": "7f9c49e5-5dbb-48ea-8006-6944447abbe6",
   "version": 0
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4057357606",
+  "source": {
+   "name": "Is this true?",
+   "showName": true,
+   "instructions": "Select all of the expressions below that evaluate to `True`.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "f937e7da-c88a-5999-c30c-e64c19d340f9",
+     "correct": true,
+     "answer": "`3 < 5`"
+    },
+    {
+     "_id": "76da374d-9ddb-fb7a-30e4-f81ac0d7a55d",
+     "correct": false,
+     "answer": "`9 = 9`"
+    },
+    {
+     "_id": "70da0ba1-8047-e863-c908-2598f20e8297",
+     "correct": true,
+     "answer": "`5 == 5`"
+    },
+    {
+     "_id": "ee709de7-0884-e12b-48bb-5264a3cfc8b6",
+     "correct": false,
+     "answer": "`8 < 4`"
+    },
+    {
+     "_id": "f1021ec9-a9bf-6c88-a519-645fcfed0951",
+     "correct": false,
+     "answer": "`3 == 5`"
+    },
+    {
+     "_id": "624eea36-9dc1-6354-4676-a7610556c6ca",
+     "correct": true,
+     "answer": "`9 > 0`"
+    }
+   ],
+   "guidance": "`9 = 9` is not `True` because we use **two** equal signs to compare values in Python. In fact, `9 = 9` translates to \"assign a value of 9 to 9.\"",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 2,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

@@ -228,6 +228,12 @@
        "pageId": "ddddee77-4652-1fa0-be3a-ab2fe3e9050a"
       },
       {
+       "title": "Booleans",
+       "id": "05abf534-3d33-3b54-acc1-8a4d944ec1f9",
+       "type": "page",
+       "pageId": "4981a4b9-dbb7-87c6-2728-1b1a448be61c"
+      },
+      {
        "title": "If Statement Pt. 1",
        "id": "c48ab2c8-e863-5054-9b21-824a424c3f3e",
        "type": "page",
@@ -358,10 +364,10 @@
        "pageId": "f5ca24a5-9394-605a-4d9d-8f3abbd367bb"
       },
       {
-       "id": "7c6a2474-3eb3-1c6e-e164-b91f028aacee",
        "title": "Q17 The Largest of Three",
-       "pageId": "04fb72e8-99d8-f2ad-a3b6-e9bd545ff56b",
-       "type": "page"
+       "id": "7c6a2474-3eb3-1c6e-e164-b91f028aacee",
+       "type": "page",
+       "pageId": "04fb72e8-99d8-f2ad-a3b6-e9bd545ff56b"
       }
      ]
     },
