@@ -14,6 +14,8 @@ The **length** of a list refers to the number of elements in it. You can access 
 
 **Think:** Print the last element in your list of activities without using a negative index. _This technique will be useful if you move onto another programming language in the future._
 
+<details><summary>Hint</summary>Use the `len` function to get the index of the last element. Remember that indexes start at 0!</details>
+
 {try it}(python3 code/lists/list-basics.py 2)
 
 |||
@@ -48,14 +50,12 @@ A list in Python has many built-in functionalities. To perform more interesting 
 
 ### Remove elements
 
-There are two ways to remove elements from a list. If you want the value of the removed element, use `list.pop` and supply the index of the element you want to remove. If you do not want the value of the removed element, use `del list[index]`. For example:
+There are two ways to remove elements from a list. If you want the value of the removed element, use `list.pop` and supply the index of the element you want to remove. For example:
 
 ```python
 numbers = [1, 4, 7, 2, 8, 3]
 print(numbers.pop(1))
 # this will print "4", and numbers will become [1, 7, 2, 8, 3]
-del numbers[0]
-# numbers will become [7, 2, 8, 3]
 ```
 
 |||challenge
@@ -75,12 +75,14 @@ numbers = [2, 9, 1, 5]
 numbers.insert(0, 8)
 # numbers is now [8, 2, 9, 1, 5]
 numbers.insert(3, 4)
-# numbers is now [8, 2, 9, 4, 1, 5], as numbers[3] is 4.
+# numbers is now [8, 2, 9, 4, 1, 5], and numbers[3] is 4.
 ```
 
 |||challenge
 
 **Your Turn:** Move the last element in your list of activities to the front of the list on a separate line, and print the list.
+
+<details><summary>Hint</summary>This requires two operations: (1) removing the last element, and (2) inserting that element to the front of the list. Use `pop` and `insert`.</details>
 
 {try it}(python3 code/lists/list-basics.py 6)
 

@@ -12048,11 +12048,11 @@
   "source": {
    "name": "Python - Greatest Common Divisor",
    "showName": true,
-   "instructions": "The **Euclidean Algorithm** is an efficient way to compute the GCD (greatest common divisor) of any two non-negative integers. Given inputs `a` and `b`, the following is how the algorithm operates:\n\n1. If `a` equals 0, then `b` is the final result\n2. If `b` equals 0, then `a` is the final result\n3. Since `GCD(a, b) = GCD(b, a % b)`, change `a` and `b` such that they match the arguments on the right-hand side of this equation\n4. Go to step 1\n\nYour task is to implement this algorithm using a `while` loop, not recursion. You should compute `GCD(a,b)` and print it to standard output. Assume that nonnegative integers have already been assigned to `a` and `b`.",
+   "instructions": "The **Euclidean Algorithm** is an efficient way to compute the GCD (greatest common divisor) of any two non-negative integers. Given inputs $a$ and $b$, the following is how the algorithm operates:\n\n1. If $a$ equals 0, then $b$ is the final result\n2. If $b$ equals 0, then $a$ is the final result\n3. Since the GCD of $a$ and $b$ is equal to the GCD of $b$ and $a \\text{ mod } b$, or $\\text{GCD}(a, b) = \\text{GCD}(b, a \\text{ mod } b) $, change $a$ and $b$ such that they match the arguments on the right-hand side of this equation\n4. Go to step 1\n\nYour task is to implement this algorithm using a `while` loop. You should compute $\\text{GCD}(a,b)$ and print it to standard output. Assume that non-negative integers have already been assigned to $a$ and $b$.\n\nFor example: Suppose your program is asked to find the GCD of 54 and 36.\n\n1. The GCD of $54$ and $36$ is equal to the GCD of $36$ and $54 \\text{ mod } 36$, which is $18$.\n2. The GCD of $36$ and $18$ is equal to the GCD of $18$ and $36 \\text{ mod } 18$, which is $0$.\n3. The GCD of $18$ and $0$ is $18$, according to step number 2 above.\n\nTherefore, the GCD of $54$ and $36$ is $18$.",
    "command": "python3 .guides/secure/gcd-test.py",
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 10,
-   "guidance": "A valid solution to this problem would be the following:\n\n```python\nwhile True:\n  if a == 0:\n    print(b)\n    break\n  if b == 0:\n    print(a)\n    break\n  a, b = b, a % b\n```\n\nThis solution follows each step of the Euclidean Algorithm. The last line first computes the tuple `(b, a % b)` and then assigns it to `(a, b)`.",
+   "guidance": "Consider the following rough implementation of the algorithm:\n\nInputs: $A$ and $B$\n1. If $A=0$, then $B$ is the GCD.\n2. If $B=0$, then $A$ is the GCD.\n3. Set $A$ to $B$ and set $B$ to $A % B$. _Note that you might need to make a temporary variable to hold the original value of $A$._",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -12959,5 +12959,110 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1042865721",
+  "source": {
+   "name": "Python - Repetition",
+   "showName": true,
+   "instructions": "Fill in the blank below such that `calculate()` is called exactly 42 times.",
+   "text": "```python\nfor i in <<<range(42)>>>:\n  calculate()\n```",
+   "guidance": "To repeat an action `n` times in Python, we conventionally use the following syntax:\n```python\nfor i in range(n):\n  # do something\n```\nSince `range(n)` returns an iterable consisting of all integers in the range $[0,n)$, it causes the loop's body to be executed `n` times.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     },
+     {
+      "name": "Content",
+      "value": "For loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT write a for loop that repeats a certain number of times in Python",
+   "tokens": {
+    "blank": [
+     "range(42)"
+    ],
+    "text": [
+     "```python\nfor i in ",
+     0,
+     ":\n  calculate()\n```"
+    ]
+   }
+  },
+  "linkedId": "d596945f-8587-4675-9b73-72434199dcf8",
+  "libraryId": "7f9c49e5-5dbb-48ea-8006-6944447abbe6",
+  "version": 1
+ },
+ {
+  "type": "test",
+  "taskId": "test-254598030",
+  "source": {
+   "name": "Python - Countdown (Loops)",
+   "showName": true,
+   "instructions": "Given that `times` is a variable with a positive integer value denoting how many numbers to print, print all integers from 1 to `times` in reverse order. You are allowed to change the value of `times`.\nFor example, if `times` is equal to 6, your program should print:\n```\n6\n5\n4\n3\n2\n1\n```\n",
+   "command": "python3 .guides/secure/countdown-test.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 5,
+   "guidance": "Try using a `while` loop! Print out the current value of `times` and then decrement it (decrease its value by 1). What boolean expression should be used to tell the loop when to stop? \n\nDon't be afraid to ask questions if you need any help!",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     },
+     {
+      "name": "Content",
+      "value": "While loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     }
+    ],
+    "files": [
+     "Q5_Countdown.py",
+     ".guides/secure/lib/syntax-check.py",
+     ".guides/secure/countdown-test.py"
+    ],
+    "layout": "2-panels",
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "Q5_Countdown.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a basic while loop with an integer counter"
+  },
+  "libraryId": "7f9c49e5-5dbb-48ea-8006-6944447abbe6",
+  "version": 0
  }
 ]

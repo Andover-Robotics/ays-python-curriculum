@@ -3,7 +3,7 @@ This page should take around 15 minutes.
 |||
 ## What is a List?
 
-A list is a built-in data structure that groups information in a sequence. Lists are declared with the `[]` brackets, and a comma separates each item in a list. Lists are mutable, which means you can change them in a variety of ways. The values in a list are called **elements** or sometimes **items**.
+A list is a built-in data structure that groups pieces of data in a sequence. Think of your typical grocery list--a sequence of items. Lists are declared with the `[]` brackets, and a comma separates each item in a list. Lists are mutable, which means you can change them in a variety of ways. The values in a list are called **elements** or sometimes **items**.
 
 ## Declaring a List
 ```python

@@ -955,568 +955,6 @@
    "learningObjectives": ""
   },
   {
-   "id": "b9c69c33-7cf0-155c-433a-8c918e8f9fcb",
-   "title": "Loops",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Loops-b9c6.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "7f571e39-efb1-a3e2-1d65-766b629b9b91",
-   "title": "Learning Objectives - For Loop",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives---For-Loop-7f57.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "aa78fb31-3f75-feda-1de0-4c7e84578f9e",
-   "title": "For Loops",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/loops/playground-for-loop.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/For-Loops-aa78.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "8fec3ac7-db7a-59a7-9eb2-d5e563109d7e",
-   "title": "Turtle Graphics",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#preview: https://{{domain3000}}/",
-     "panel": 1,
-     "action": "open"
-    },
-    {
-     "path": "code/loops/playground-turtle-1.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Turtle-Graphics-8fec.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "8c989a52-b30b-b2ce-eab4-121e07a59428",
-   "title": "Turtle Coding - For Loop",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#preview: https://{{domain3000}}/",
-     "panel": 1,
-     "action": "open"
-    },
-    {
-     "path": "code/loops/playground-turtle-2.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "3-columns",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Turtle-Coding---For-Loop-8c98.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "e9b3b8dc-df28-dfad-e134-a8242e49893d",
-   "title": "Formative Assessment 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-e9b3.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "2e50f27b-848e-57f9-0c87-2544d78ab113",
-   "title": "Formative Assessment 2",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-2e50.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "302ac3fe-69be-b128-05a3-413d6ea33cdd",
-   "title": "Learning Objectives - While Loops",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives---While-Loops-302a.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "778563fe-c54e-70b1-f70a-dca433b5c869",
-   "title": "While Loops",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/loops/playground-while-loop.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/While-Loops-7785.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "c6d96a7f-b500-4a5c-209b-1325e6f8bc58",
-   "title": "Turtle Coding - While Loop",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#preview: https://{{domain3000}}/",
-     "panel": 1,
-     "action": "open"
-    },
-    {
-     "path": "code/loops/playground-turtle-3.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Turtle-Coding---While-Loop-c6d9.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "a3a4b773-153f-1694-2cd5-6b0393603973",
-   "title": "Break Statement",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/loops/playground-break-statement.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Break-Statement-a3a4.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "01b80279-7c34-4ad9-d18f-b60c135ddcc7",
-   "title": "Formative Assessment 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-01b8.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "14180046-5e79-f5e8-2653-7c0fb25dd51d",
-   "title": "Formative Assessment 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-1418.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "6c534c03-d573-bfd6-6525-a17e42faa4e0",
-   "title": "Learning Objectives - Nested Loops",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives---Nested-Loops-6c53.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "7f73ec73-b7ed-1705-6c16-f6060138b470",
-   "title": "Nested Loops",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/loops/playground-nested-loops.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Nested-Loops-7f73.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "4aa0ee41-e52b-9fb8-cb12-ca860e423d22",
-   "title": "Formative Assessment 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-4aa0.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "901dd1a1-ffb7-01b5-3017-b18cc4376a12",
-   "title": "Formative Assessment 2",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-901d.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "06cc7b28-7141-093d-12b0-c182971632f0",
-   "title": "Lab - For Loop",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/loops/lab-1.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Lab---For-Loop-06cc.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "f4975bf5-e2af-0b28-6ec5-688422babb6e",
-   "title": "Lab - Range",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/loops/lab-range.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Lab---Range-f497.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "8142cb18-3bc8-8960-0aee-519d6db48e74",
-   "title": "Lab - While Loop",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/loops/lab-while-loop.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Lab---While-Loop-8142.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "b4e9568e-f35e-46de-0c1c-36cdbbb10d15",
-   "title": "Lab - Break Statement",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/loops/lab-break.py",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#terminal: ",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Lab---Break-Statement-b4e9.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "1faa9781-fe6b-8f9e-626b-bd1028491c0e",
-   "title": "Lab Challenge - Chessboard",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/loops/lab-challenge.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Lab-Challenge---Chessboard-1faa.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "71a14a6a-8caf-e5b3-bfc9-6d80a8c96633",
-   "title": "Exercise 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-1-71a1.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "853f5e64-0f21-8d10-1027-9ea3bca5b8ff",
-   "title": "Exercise 2",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-2-853f.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "9d86cd18-13b9-a2b1-de40-91925ef32d6d",
-   "title": "Exercise 3",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/loops/exercise-3.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-3-9d86.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "2cc9fc07-d23f-9cbd-ea8f-2dd52df7ea2d",
-   "title": "Exercise 4",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#preview: https://{{domain3000}}/",
-     "panel": 1,
-     "action": "open"
-    },
-    {
-     "path": "code/loops/exercise-4.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-4-2cc9.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "9136ec2e-d876-5961-0c80-ddb4cfd49985",
-   "title": "Exercise 5",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/loops/exercise-5.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-5-9136.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
    "id": "d51f5af5-b10e-1fe8-c3aa-316ff6ebc5bb",
    "title": "Learning Objectives - List Basics",
    "files": [
@@ -1639,15 +1077,11 @@
    "learningObjectives": ""
   },
   {
-   "id": "ca6ec0b8-568b-756b-c1f3-5e3ca42e99ad",
-   "title": "Q3 Stand in Order",
+   "id": "d797dcc6-3691-286e-4af1-530147f13034",
+   "title": "Playground",
    "files": [
     {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": " lists/Q3_Insertion.py",
+     "path": "#terminal: clear; ipython3; exit",
      "panel": 0,
      "action": "open"
     }
@@ -1655,7 +1089,54 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Q3-Stand-in-Order-ca6e.md",
+   "content-file": ".guides/content/Playground-d797.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "48432b76-9df6-8228-f3cc-b42e12f7fd53",
+   "title": "Q3 Pop This, Not That",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": " Q3_PopThis.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Q3-Pop-This--Not-That-4843.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": "",
+   "readOnly": false
+  },
+  {
+   "id": "74b9c4ff-96d6-599b-abc1-ed6e7412c373",
+   "title": "Python - Countdown (Loops)",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": " Q5_Countdown.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Python---Countdown--Loops--74b9.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -1685,183 +1166,6 @@
    "teacherOnly": false,
    "learningObjectives": "",
    "readOnly": false
-  },
-  {
-   "id": "48432b76-9df6-8228-f3cc-b42e12f7fd53",
-   "title": "Q3 Pop This, Not That",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": " Q3_PopThis.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Q3-Pop-This--Not-That-4843.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": "",
-   "readOnly": false
-  },
-  {
-   "id": "104a7336-ad7e-74bb-d0e0-6f21f25ad82c",
-   "title": "Learning Objectives - List of Numbers",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Learning-Objectives---List-of-Numbers-104a.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "ea35867f-1c42-ddf3-9da1-0da0ef8fc3e5",
-   "title": "Sum",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/lists/list-sum.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Sum-ea35.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "74405d6b-8c32-e29c-a68d-787538bc5818",
-   "title": "Min",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/lists/list-min.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Min-7440.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "c71817a7-1804-3a2d-5fcd-bf674025f00c",
-   "title": "Max",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/lists/list-max.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Max-c718.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "c4948ee7-13ce-474d-3647-832e41095fa6",
-   "title": "Formative Assessment 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-c494.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "74be7fc8-9946-21fb-bcc3-38a39ad51206",
-   "title": "Formative Assessment 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-74be.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "d842ff42-6925-45b7-bb47-f895d66b0976",
-   "title": "Formative Assessment 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-1-d842.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "0dc016a3-b223-2983-8cbb-aafedc9ed372",
-   "title": "Formative Assessment 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Formative-Assessment-2-0dc0.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
   },
   {
    "id": "28a06cd9-a536-8aba-92cb-36c545ec8be7",
@@ -4799,6 +4103,30 @@
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
+  },
+  {
+   "id": "ca6ec0b8-568b-756b-c1f3-5e3ca42e99ad",
+   "title": "Challenge: Sorted Insertion",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": " lists/Q3_Insertion.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge--Sorted-Insertion-ca6e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": "",
+   "readOnly": false
   }
  ],
  "theme": "light",
