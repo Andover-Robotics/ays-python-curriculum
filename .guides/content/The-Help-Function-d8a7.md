@@ -5,6 +5,8 @@ Time estimation: 6 minutes.
 
 |||
 
+# HIDE - THE HELP FUNCTION
+
 Python has a built-in function called `help` that explains how other standard functions work. This is a handy way of learning how to use a function without having to look it up in the official documentation. 
 
 ```python

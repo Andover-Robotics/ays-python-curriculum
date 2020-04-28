@@ -1,3 +1,5 @@
+# HIDE SECTION - Variable Scope
+
 * ### Learn what scope is
 * ### Learn what global and local variables are
 * ### Use scope resolution to evaluate functions using global variables

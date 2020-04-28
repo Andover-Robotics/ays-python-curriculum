@@ -1,3 +1,5 @@
+# HIDE SECTION
+
 * ### Know what a helper function is
 * ### Demonstrate two ways to implement helper functions
 * ### Define function composition

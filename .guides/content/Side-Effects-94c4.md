@@ -1,6 +1,6 @@
 ----------
 
-## Side Effects
+## HIDE - Side Effects
 
 Side effects are any changes that a function produces that modify things outside of the function's scope. Examples of side effects are printing to the screen, changing a global variable, writing to a file, etc. Sometimes side effects are the desired outcome, but there are many programmers who believe that functions should not have side effects (these are called pure functions). 
 

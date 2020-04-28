@@ -1,6 +1,6 @@
 ----------
 
-## Optional Parameters
+## HIDE - Optional Parameters
 
 Python allows you to create functions with optional parameters. They are considered to be optional because when you call the function, you can either include the parameter or choose not to However, the function declaration will name this parameter and give it a default value.
 

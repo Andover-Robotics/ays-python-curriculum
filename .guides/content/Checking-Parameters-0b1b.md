@@ -1,4 +1,4 @@
-## Checking Parameter Data Types
+## HIDE - Checking Parameter Data Types
 
 Functions can fail with the wrong data type is passed as a parameter. The function definition below expects two numbers, but the function calls passes a string.
 

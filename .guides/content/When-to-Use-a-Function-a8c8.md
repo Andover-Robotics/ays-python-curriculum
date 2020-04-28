@@ -1,6 +1,6 @@
 ----------
 
-## Divide and Conquer
+## HIDE - Divide and Conquer
 
 If you had to explain how to draw a house, you would make a list of shapes to draw. Draw a triangle for the roof, draw a square for the house, draw a rectangle for the door, etc. Combine all of these shapes, and you have a house. This approach to problem solving makes complex problems easier to understand, easier to solve, and easier to fix.
 

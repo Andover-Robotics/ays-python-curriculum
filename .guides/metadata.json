@@ -3367,6 +3367,25 @@
    "learningObjectives": ""
   },
   {
+   "id": "f0ef0d27-708c-f445-3bab-5d3996234cf2",
+   "title": "Playground",
+   "files": [
+    {
+     "path": "#terminal: clear; ipython3; exit",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Playground-f0ef.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "f3d694f1-2557-5952-5991-446975f6871e",
    "title": "Learning Objective - Parameters",
    "files": [],
