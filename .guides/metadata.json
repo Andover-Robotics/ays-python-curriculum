@@ -1398,6 +1398,29 @@
    "learningObjectives": ""
   },
   {
+   "id": "d56ffc20-6afe-174e-ddb7-e0fee2345217",
+   "title": "Final Project -- Calculator!",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/final_project.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Final-Project----Calculator--d56f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "4be941bd-fa47-4894-3894-963e49a3dc37",
    "title": "Learning Objectives - String Basics",
    "files": [

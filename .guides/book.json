@@ -549,6 +549,26 @@
    ]
   },
   {
+   "title": "Final Project",
+   "id": "cdd981be-644a-7cfd-ebd4-a5b178bb715e",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Final Project Specs & Coding Space",
+     "id": "8756e3a7-9eb5-0502-fbd0-86bb4db126b5",
+     "type": "section",
+     "children": [
+      {
+       "id": "6f25defd-ae72-c47c-26c9-5e124350e58b",
+       "title": "Final Project -- Calculator!",
+       "pageId": "d56ffc20-6afe-174e-ddb7-e0fee2345217",
+       "type": "page"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "title": "Strings",
    "id": "d7f6565e-f3be-56f9-eb18-66ce22c16a34",
    "type": "chapter",
@@ -1592,6 +1612,12 @@
      ]
     }
    ]
+  },
+  {
+   "title": "New Section",
+   "id": "600debc4-369b-7e90-55b9-614287c0b815",
+   "type": "section",
+   "children": []
   }
  ],
  "name": "AYS Programming in Python"
