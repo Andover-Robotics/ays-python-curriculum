@@ -15,9 +15,9 @@ Here are the minimum requirements for the calculator:
 
 Bonus/Challenge Ideas:
 
-- Use a for loop to let the user add or multiply as many #s as they want
+- Use a loop to let the user add or multiply as many #s as they want
 
 - Input Validation - what happens if the user tries to add something that isn’t a number, or types something into your selection menu that isn’t understandable?
 
-{try it}(python3 code/final_project.py)
+{Try It | terminal}(python3 code/final_project.py ; read -n 1 -s -r -p "Press any key to exit" ; exit)
 
