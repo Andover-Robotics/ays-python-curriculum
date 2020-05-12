@@ -4169,6 +4169,55 @@
    "teacherOnly": false,
    "learningObjectives": "",
    "readOnly": false
+  },
+  {
+   "id": "193e5a92-2e23-39e2-3219-f49818e16f78",
+   "title": "Bonus Project 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "bonus_1.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "bonus_1.py"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Bonus-Project-1-193e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ec838a90-0f65-6410-ba28-accf9c71023d",
+   "title": "Bonus Project 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Bonus-Project-2-ec83.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "38779753-e7d9-211d-5bef-682de7500b84",
+   "title": "Bonus Project 3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Bonus-Project-3-3877.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
   }
  ],
  "theme": "light",

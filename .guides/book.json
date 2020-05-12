@@ -1614,10 +1614,36 @@
    ]
   },
   {
-   "title": "New Section",
-   "id": "600debc4-369b-7e90-55b9-614287c0b815",
-   "type": "section",
-   "children": []
+   "title": "Bonus Projects (Post-Final)",
+   "id": "92f6a6d7-2674-7e39-0657-6b4b5183d558",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Bonus Projects",
+     "id": "7dd94e68-4b05-db75-79aa-153e322d6e06",
+     "type": "section",
+     "children": [
+      {
+       "id": "cc9ef6f8-ec4a-a47c-21dc-0790ebc172b7",
+       "title": "Bonus Project 1",
+       "pageId": "193e5a92-2e23-39e2-3219-f49818e16f78",
+       "type": "page"
+      },
+      {
+       "id": "b39f85d4-63bd-a4f7-3332-cce01d4d1619",
+       "title": "Bonus Project 2",
+       "pageId": "ec838a90-0f65-6410-ba28-accf9c71023d",
+       "type": "page"
+      },
+      {
+       "id": "de7c73bc-58b5-1489-a8d9-4cd48be1c10a",
+       "title": "Bonus Project 3",
+       "pageId": "38779753-e7d9-211d-5bef-682de7500b84",
+       "type": "page"
+      }
+     ]
+    }
+   ]
   }
  ],
  "name": "AYS Programming in Python"
