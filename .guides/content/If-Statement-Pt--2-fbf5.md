@@ -5,7 +5,7 @@ When you write an if statement, you will usually use it to compare the values of
 * `==`: is equal to (not to be confused with `=`, which is used to assign variables)
 * `!=`: is **not** equal to (the `!` means not)
 * `<`: less than
-* `<=`: greater than or equal to
+* `<=`: less than or equal to
 * `>`: greater than
 * `>=`: greater than or equal to
 

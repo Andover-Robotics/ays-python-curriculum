@@ -1,9 +1,48 @@
 ----------
 ## Elif Statement
 
-What if you wanted to check for a situation that isn't just "this" or "that," but had multiple cases in between? That's where the elif statement comes in!
+Check out this piece of code:
 
-The **elif statement**, short for "else if," is used after an if statement and before an else statement. Elif statements give you more precision when making decisions by allowing you to run different code during many different situations.
+```python
+if grade > 90:
+  print('you get A')
+else:
+  if grade > 80:
+    print('you get B')
+  else:
+    if grade > 70:
+      print('you get C')
+```
+
+It seems that the more cases you add to this pattern, the more indented your last lines of code become!
+
+What if you wanted to check for a situation that isn't just "this" or "that," but had multiple cases in between? That's where the `elif` statement comes in!
+
+The **elif statement**, short for "else if," is used after an if statement and before an else statement. You can think of it as "otherwise, if ...". Elif statements allow you to specify more than two possible branches of execution in one `if` statement. For example, these two code segments are equivalent:
+
+```python
+answer = input('pick a topping for your pizza: pepperoni, mushrooms, or pineapple')
+if answer == 'pepperoni':
+  print('solid choice')
+else:
+  if answer == 'mushrooms':
+    print('interesting')
+  else:
+    if answer == 'pineapple':
+      print('some people hate this')
+```
+
+```python
+answer = input('pick a topping for your pizza: pepperoni, mushrooms, or pineapple')
+if answer == 'pepperoni':
+  print('solid choice')
+elif answer == 'mushrooms':
+  print('interesting')
+elif answer == 'pineapple':
+  print('some people hate this')
+```
+
+The latter is much easier to read and reason about than the former segment.
 
 ## Syntax
 
@@ -11,9 +50,8 @@ The elif statement is written similarly to the if statement. There are few diffe
 
 * An if statement must come before the first elif statement
 * `elif` is followed by a boolean expression and a `:`
-* Indent four spaces and write the commands for when the elif statement is true
+* Indent and write the code for when the elif statement's condition is True
 * You can write as many elif statements as you want
-* An else statement must come after the last elif statement
 
 ![elif Statement](.guides/images/elif-statement.png)
 

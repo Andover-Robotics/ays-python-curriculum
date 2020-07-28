@@ -11749,7 +11749,7 @@
      "answer": "No"
     }
    ],
-   "guidance": "One of these is a string, and the other is an int. These are two different data types.",
+   "guidance": "One of these is a string, and the other is an integer. These are two different data types. For the first variable, the computer stores it as a sequence of characters, much like a word. For the second variable, the computer stores it as an actual number in binary.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -11878,22 +11878,22 @@
     {
      "_id": "c306b39f-0a8b-8440-9317-733c8b172137",
      "correct": false,
-     "answer": "true"
+     "answer": "`true`"
     },
     {
      "_id": "9e0b8412-6152-2d9a-262a-24bb1f2ad6ac",
      "correct": false,
-     "answer": "false"
+     "answer": "`false`"
     },
     {
      "_id": "ed96d21a-7ed0-b750-5211-d457f2206b23",
      "correct": true,
-     "answer": "True"
+     "answer": "`True`"
     },
     {
      "_id": "1fb7bdde-a1c1-0014-3951-fe94f6e6ad22",
      "correct": false,
-     "answer": "FALSE"
+     "answer": "`FALSE`"
     }
    ],
    "guidance": "",

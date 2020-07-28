@@ -1,5 +1,5 @@
 ## `input()`
-`input()` is used to take in data from the user through the **console**. The console is a tool in which you may run your code and communicate with your programs using the keyboard. You will often seen referred to as the *terminal*. For `input()`, you may supply a string inside the parentheses as a prompt, and then the user will be able to type a response in the console. When the user presses enter, their typed message is sent back as the result of the `input()`, and may be stored in a variable, as seen below:
+`input()` is used to take in data from the user through the **console**. The console is a textual interface that displays outputs from your program and accepts inputs from the keyboard into your program. You will often see the console referred to as the *terminal* for historical reasons _(maybe your parents know more about them ;))_. For `input()`, you may supply a string inside the parentheses that asks the user for something, and then the user will be able to type a response in the console. When the user presses <kbd>Enter</kbd>, their typed message is sent back as the result of the `input()`, and may be stored in a variable, as seen below:
 
 ```python
 message = input('Leave me a message: ')

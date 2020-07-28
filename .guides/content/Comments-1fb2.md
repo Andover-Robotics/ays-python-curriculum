@@ -1,11 +1,6 @@
-Not all code is immediately understandable. To help others (and yourself) understand what everything is doing, **comments** should be employed. 
+Not all code is immediately understandable by all programmers. To help others (and future you) understand what everything is doing, **comments** can be employed. 
 
-There are two kinds of comments:
-  * **Single-line** comments
-  * **Multi-line** comments
-  
-## Single-line Comments
-To make a single-line comment, simply insert a `#`. Everything from the `#` to the end of the line will then be interpreted as a comment (that is to say, it will not be interpreted at all as code)
+To make a single-line comment, simply insert a `#`. The computer will ignore everything from the `#` to the end of the line.
 
 For example:
 ```python
@@ -25,21 +20,8 @@ print(number)
 
 Notice what parts of the code have been executed and what has been commented out.
 
-## Multi-line Comments
-To make a multi-line comment you have two options:
-* Add a `#` at the beginning of every line that is a part of your comment
-* Add `"""`s at the beginning and ends of your comments, like so:
+When maintaining a piece of code for a long time, comments become very useful. When people can't figure out what your code is trying to do at a high level, you need to add comments that explain what you're trying to do and why you're doing it a particular way. As Martin Fowler puts it,
 
-```python
-"""
-This is a "block comment" in Python.
-Pay attention to the format.
-Any code written here will not be executed
-print('Hello')
-"""
-print('World')
-```
-
-{try it}(python3 code/fundamentals/comments_demo_2.py)
-
-Using comments will result in better, clearer code and easier collaboration.
+<blockquote>
+  Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+</blockquote>

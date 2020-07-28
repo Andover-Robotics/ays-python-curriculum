@@ -8,9 +8,9 @@ Use the following button to run your code from the editor. A console will appear
 {Try It | terminal}(python3 code/fundamentals/input_diy.py ; read -n 1 -s -r -p "Press any key to exit" ; exit)
 
 ## Challenge
-Can you make a program that takes in the user's first and last names (separately), then prints them out in the following format: `Last, First`
+Can you make a program that asks for the user's first and last names separately, then prints them out in the following format: `Last, First`?
 
-Once again, use the following button to run your code from the editor. A console will appear to allow input.
+Once again, use the following button to run your code from the editor. A console will appear to enable input.
 
 {Try It | terminal}(python3 code/fundamentals/input_diy.py ; read -n 1 -s -r -p "Press any key to exit" ; exit)
 

@@ -13,13 +13,44 @@
    "learningObjectives": ""
   },
   {
-   "id": "541ebf7d-592c-95d6-756f-1a13fc2581f1",
-   "title": "Hello World!",
+   "id": "be9643ec-76b7-f20a-8703-95519344c8a0",
+   "title": "Teaching the Computer",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Teaching-the-Computer-be96.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e2c49c2a-99b6-0517-21df-20dcc27ab578",
+   "title": "Your Personal Interpreter",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
+    {
+     "path": "#terminal: clear; ipython3",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Your-Personal-Interpreter-e2c4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "541ebf7d-592c-95d6-756f-1a13fc2581f1",
+   "title": "Hello World!",
+   "files": [
     {
      "path": "code/fundamentals/hello_world.py",
      "panel": 0,
@@ -49,24 +80,6 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Multiple-Messages-91c6.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "3a374312-100f-9b5e-3454-3ed53b33e5dc",
-   "title": "Printing Numbers",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Printing-Numbers-3a37.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -174,30 +187,17 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "#terminal: clear; ipython3; exit",
+     "panel": 0,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Variables-7243.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "eb29389c-25de-0c35-9bad-22538316aa20",
-   "title": "Variable Names Review",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Variable-Names-Review-eb29.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -208,11 +208,12 @@
    "title": "Variables - Numbers",
    "files": [
     {
-     "path": "#tabs",
-     "action": "close"
+     "path": "#terminal: clear; ipython3; exit",
+     "panel": 0,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Variables---Numbers-a11c.md",
@@ -251,9 +252,14 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "#terminal: clear; ipython3; exit",
+     "panel": 0,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Numbers---Other-Operators-7778.md",
@@ -292,9 +298,14 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "#terminal: clear; ipython3; exit",
+     "panel": 0,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Data-Types-a7b8.md",
@@ -305,7 +316,7 @@
   },
   {
    "id": "7c8f5f3a-79f0-d2d5-87f4-4c0901034118",
-   "title": "Variables - Review (Part 1)",
+   "title": "Variables - Review",
    "files": [
     {
      "path": "#tabs",
@@ -315,56 +326,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Variables---Review--Part-1--7c8f.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "e44e6832-6dcb-c4ea-766d-5d82e9dde634",
-   "title": "Variables - Review (Part 2)",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Variables---Review--Part-2--e44e.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "b43cd27d-0cde-3dbf-2d22-d6f85f1e12dc",
-   "title": "Variables - Review (Part 3)",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Variables---Review--Part-3--b43c.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "7333c94f-7054-6d36-2e8e-45fc5845df92",
-   "title": "Variables - Review (Part 4)",
-   "files": [],
-   "layout": "",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Variables---Review--Part-4--7333.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "d04b1987-a63a-624c-269f-b944c3af97fc",
-   "title": "Variables - Review (Part 5)",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Variables---Review--Part-5--d04b.md",
+   "content-file": ".guides/content/Variables---Review-7c8f.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -538,6 +500,11 @@
     },
     {
      "path": "code/fundamentals/booleans.py",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: clear; ipython3; exit",
      "panel": 0,
      "action": "open"
     }

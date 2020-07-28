@@ -1,4 +1,4 @@
-a = 20
+a = 35
 
 if a < 10:
     print(str(a) + " is less than 10")

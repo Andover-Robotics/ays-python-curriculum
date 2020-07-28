@@ -2,9 +2,14 @@
 
 The **length** of a list refers to the number of elements in it. You can access the length of a list using the built-in `len` function. For example, `len([4, 1, 9, 2])` has a value of 4.
 
+```python
+acts = ['write', 'read', 'listen', 'speak']
+print(len(acts)) # output is 4, as there are four elements
+```
+
 |||challenge
 
-**Your Turn:** Print the length of your list of activities, using `len` as necessary.
+**Your Turn:** Print the length of your list of activities using `len`.
 
 {try it}(python3 code/lists/list-basics.py 1)
 
@@ -38,7 +43,7 @@ You can use the assignment operator (`=`) to change the value of an element. Be 
 
 ### Add elements
 
-A list in Python has many built-in functionalities. To perform more interesting operations than change the element at an index, we use these built-in functionalities on existing lists. (You will learn later that these functionalities are defined as functions.) To add an element to the end of a list, use `list.append`. For example, to add 3 to the end of a list named `numbers`, you could write `numbers.append(3)`.
+A list in Python has many built-in functionalities. To perform more interesting operations than change the element at an index, we use these built-in functionalities on existing lists. (You will learn later that these functionalities are defined as functions.) To add an element to the end of a list, use `.append`. For example, to add 3 to the end of a list named `numbers`, you could write `numbers.append(3)`.
 
 |||challenge
 
@@ -50,7 +55,7 @@ A list in Python has many built-in functionalities. To perform more interesting 
 
 ### Remove elements
 
-There are two ways to remove elements from a list. If you want the value of the removed element, use `list.pop` and supply the index of the element you want to remove. For example:
+If you want the value of the removed element, use `list.pop` and supply the index of the element you want to remove. For example:
 
 ```python
 numbers = [1, 4, 7, 2, 8, 3]
@@ -68,14 +73,14 @@ print(numbers.pop(1))
 
 ### Insert elements
 
-You can manually insert an element into any position in an existing list using the techniques covered above, but that is tedious. Fortunately, `list.insert` enables you to add any element to any valid index. To insert an element `x` into a list `k` such that the element at index `i` after insertion is `x`, you could write `k.insert(i, x)`. To add an element to the front of a list, you could write `k.insert(0, x)`. To add an element to the end of a list, you could write `k.insert(len(k), x)`, which is equivalent to `k.append(x)`. For example:
+You can manually insert an element into any position in an existing list using the techniques covered above, but that is tedious. Fortunately, `.insert` enables you to add any element to any valid index. To insert an element `x` into a list `k` such that the element at index `i` after insertion is `x`, you could write `k.insert(i, x)`. To add an element to the front of a list, you could write `k.insert(0, x)`. To add an element to the end of a list, you could write `k.insert(len(k), x)`, which is equivalent to `k.append(x)`. For example:
 
 ```python
-numbers = [2, 9, 1, 5]
-numbers.insert(0, 8)
-# numbers is now [8, 2, 9, 1, 5]
-numbers.insert(3, 4)
-# numbers is now [8, 2, 9, 4, 1, 5], and numbers[3] is 4.
+daft = ['faster', 'stronger']
+daft.insert(0, 'harder')
+# daft is now ['harder', 'faster', 'stronger']
+daft.insert(1, 'better')
+# daft is now ['harder', 'better', 'faster', 'stronger'], and is thus perfect :P
 ```
 
 |||challenge
@@ -92,9 +97,9 @@ numbers.insert(3, 4)
 
 In Python, you can use the addition operator (`+`) between two lists in order to combine them. For example, `[1, 9, 3] + [8, 2, 4]` is equal to `[1, 9, 3, 8, 2, 4]`. 
 
-## _How do I do $x$_?
+## _How do I do this_?
 
-If it is generic enough, Python probably has you covered with their many list functionalities, which are officially documented [here](https://docs.python.org/3/tutorial/datastructures.html). Feel free to browse through the documentation to find built-in solutions. If you want to find the index of a given element in a list, for example, Python has you covered with `list.index(...)`.
+If it is generic enough, Python probably has you covered with their many list functionalities, which are officially documented [here](https://docs.python.org/3/tutorial/datastructures.html). Feel free to browse through the documentation to find built-in solutions. If you want to find the index of a given element in a list, for example, Python has you covered with `.index(...)`.
 
 ## Check your understanding
 

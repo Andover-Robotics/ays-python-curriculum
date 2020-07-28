@@ -1,6 +1,6 @@
 ## How to use Codio
 
-The left panel contains a text editor. Use this to write and edit your code. The right panel contains instructions. A `TRY IT` or `Check It!` button will execute your code. A `Check It!` button compares your code with the expected output, and shows you the results.
+The left panel contains a text editor. Use this to write and edit your code. The right panel contains instructions. A `TRY IT` or `Check It!` button will execute your code. A `Check It!` button compares your code with the expected outputs and shows you the results.
 
 ## `print()`
 

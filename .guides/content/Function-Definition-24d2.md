@@ -4,6 +4,9 @@
 Time estimation: 17 minutes.
 
 |||
+
+![Functions: input, process, output.](.guides/img/functions.png)
+
 ## Function Syntax
 
 In several of your past projects, you may have found yourself needing the same bits of code over and over again at different points in your program. In the past, you would have typed out the piece you needed each time that you used it -- but programmers use something called a function to avoid that redundancy. A function is a piece of code that, once you define what it does somewhere in your code, you can use (call) as many times as you want without retyping it. You can even input values into your functions (parameters) so that they perform differently based on your input! 

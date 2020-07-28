@@ -1,6 +1,10 @@
-## Iterating Over Lists
+Let's start with a simple question: how do you spell the word for 13?
 
-In a computer program, repetition is also called **iteration**. Iterating over a list allows you to deal with all of the elements in a list individually. Iterating over the list means to start with the element at index 0, and then progress until you reach the end of the list. A `for` loop is used to iterate over a list.
+How did you come up with the response? You "loaded" the word for 13 (thirteen) into your brain and said each letter separately. In other words, _for each letter in the word "thirteen", you spoke that letter._ If you were to write a program that prints out each letter separately, how would you approach it? You could do `print('t')`, then `print('h')`, then `print('i')`, then `print('r')`... But it gets tedious really fast, and it's not so obvious that you're trying to spell 13 anymore with so much **repetition**. There has to be a better way.
+
+## Iteration
+
+In a computer program, repetition is also called **iteration**. Iterating over a list or a string allows you to do something to each element separately. A `for` loop is used to iterate over a list.
 
 ![Iteration Variable](.guides/images/iterating-list-variable-name.png)
 
@@ -95,7 +99,7 @@ You should be able to iterate through a list and modify each element as needed.
 
 |||challenge
 
-**Think:** Try the following tasks.
+**Think:** If you have time, try the following tasks.
 * Collect the first letter from each favorite hobby into a string. For example, `["eat", "code", "sleep"]` would result in `"ecs"`.<details><summary><b>Indexing strings</b></summary>_When indexing, you can treat a string like a list of characters. For a string named `s`, `s[0]` refers to the first character._</details>
 * Determine the length of your list of favorite hobbies without using `len`.
 * Implement the "filter" pattern: populate another list with all favorite hobbies that are shorter than 5 letters.

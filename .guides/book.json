@@ -13,6 +13,18 @@
      "pageId": "a4b0cac0-0a55-844d-92e0-d54b2f656567"
     },
     {
+     "id": "deb08e86-ca09-d928-4f14-70765146f569",
+     "title": "Teaching the Computer",
+     "pageId": "be9643ec-76b7-f20a-8703-95519344c8a0",
+     "type": "page"
+    },
+    {
+     "id": "e824e948-35fa-f1e1-56dc-71804f9a9bc4",
+     "title": "Your Personal Interpreter",
+     "pageId": "e2c49c2a-99b6-0517-21df-20dcc27ab578",
+     "type": "page"
+    },
+    {
      "title": "Printing",
      "id": "8ffd7e9c-f74a-8289-81d6-6035aa37bd27",
      "type": "section",
@@ -28,12 +40,6 @@
        "id": "813f9f35-e249-83f4-8027-0fed672c5b81",
        "type": "page",
        "pageId": "91c6169e-6e14-3dbf-ed6f-bd57acffdfb9"
-      },
-      {
-       "title": "Printing Numbers",
-       "id": "88483b62-a581-36cb-2f64-aeb90ccae899",
-       "type": "page",
-       "pageId": "3a374312-100f-9b5e-3454-3ed53b33e5dc"
       },
       {
        "title": "Printing - Review",
@@ -91,12 +97,6 @@
          "pageId": "7243a5b8-8ad9-cbdb-0e52-91542c7e0edd"
         },
         {
-         "title": "Variable Names Review",
-         "id": "d97009b0-5d63-b8bf-90ba-c1affc9d3f3f",
-         "type": "page",
-         "pageId": "eb29389c-25de-0c35-9bad-22538316aa20"
-        },
-        {
          "title": "Variables - Numbers",
          "id": "72bb4f65-9f40-4cfb-6b5e-27c6e208c577",
          "type": "page",
@@ -131,30 +131,6 @@
          "id": "9025fb41-afc1-cdd1-df13-1345429ab620",
          "type": "page",
          "pageId": "7c8f5f3a-79f0-d2d5-87f4-4c0901034118"
-        },
-        {
-         "title": "Variables - Review (Part 2)",
-         "id": "d8faa8f6-0cfb-3caa-ae58-c7e90bf846b0",
-         "type": "page",
-         "pageId": "e44e6832-6dcb-c4ea-766d-5d82e9dde634"
-        },
-        {
-         "title": "Variables - Review (Part 3)",
-         "id": "ab005196-36a8-c6de-23cc-76a69e53dc0e",
-         "type": "page",
-         "pageId": "b43cd27d-0cde-3dbf-2d22-d6f85f1e12dc"
-        },
-        {
-         "title": "Variables - Review (Part 4)",
-         "id": "27c8e0c1-e17a-63f4-d637-50cbc13be906",
-         "type": "page",
-         "pageId": "7333c94f-7054-6d36-2e8e-45fc5845df92"
-        },
-        {
-         "title": "Variables - Review (Part 5)",
-         "id": "a7345569-4e3e-1235-bb58-2e4f64af2ce8",
-         "type": "page",
-         "pageId": "d04b1987-a63a-624c-269f-b944c3af97fc"
         }
        ]
       }

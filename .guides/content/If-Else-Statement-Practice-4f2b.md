@@ -1,15 +1,16 @@
 ----------
 
 ## Odd or Even
-Very often while programming, you will need  to determine if a number is odd or even. We will now guide you through a common way of doing it.
+Very often while programming, you will need to determine if a number is odd or even. We will now guide you through a common way of doing it.
 
 |||challenge
 ## Try this:
-You can use the if else statement with the modulo operator to determine if a number is odd or even.
+Set `num` to some integer. Use the if and else statements with the modulo operator to determine if `num` is odd or even.
 
-* Modulo returns the remainder after division is performed
+**Some Tips:**
+* Modulo returns the remainder after division (`8 % 3 == 2` is True)
 * Calculate the modulo (`%`) of any number and 2
-* If the modulo is 0, then the number is even
+* If the modulo is 0, then the number is even (`8 % 2 == 0` is True, so 8 is even)
 
 ## What happens if you:
 * Change `num` to `3`?
